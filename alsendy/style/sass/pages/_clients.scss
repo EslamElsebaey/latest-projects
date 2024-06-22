@@ -1,0 +1,100 @@
+.clients{
+    padding: 50px 0;
+}
+.mix-btn-content{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin-bottom: 35px;
+justify-content: center;
+}
+.mix-btn{
+    padding: 9px 18px;
+    min-height: 45px;
+    background-color: #ffffff;
+    border: 2px solid #f2f2f2;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-inline-end: 10px;
+    transition: all linear .2s;
+}
+
+.mix-btn:hover, .mixitup-control-active, .mix-btn:focus{
+    background-color: #02c2da;
+    color: #ffffff;
+    border-color: #02c2da;
+}
+.clients-content{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    column-gap: 28px;
+    row-gap: 30px;
+    margin-bottom: 30px;
+
+}
+.client-figure{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.mix-btn:last-of-type{
+    margin-inline-end: 0;
+}
+
+
+@include max-1200{
+    .clients-content{
+        grid-template-columns: repeat(5 , 1fr);
+        gap: 25px;
+    }
+}
+
+
+@include max-992{
+    .clients-content{
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 23px;
+    }
+    .client-img{
+        width: 155px;
+        height: 155px;
+    }
+}
+
+
+@include max-768 {
+    .clients-content{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+    .clients{
+        padding: 50px 0 30px 0;
+    }
+    .client-img{
+        width: 100%;
+        height: auto;
+    }
+    .client-item{
+        position: relative;
+        padding-bottom: 100%;
+        .client-figure{
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .mix-btn-content{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+        justify-content: unset;
+    }
+    .mix-btn{
+        font-size: 14px;
+    }
+}

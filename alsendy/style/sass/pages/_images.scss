@@ -1,0 +1,71 @@
+.images{
+    padding: 50px 0;
+    .fancybox__caption{
+        font-size: 14px;
+        color: red;
+        text-align: center;
+    }
+
+}
+
+
+
+.fancybox-caption{
+    bottom: 25%;
+    background: transparent;
+    padding: 0;
+}
+
+
+.image-item {
+    &:hover{
+        .image-overlay{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    position: relative;
+    img {
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+    }
+}
+.image-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-color: rgba($color: #004658, $alpha: .8);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    opacity: 0;
+    transition: all .3s linear;
+    visibility: hidden;
+    i {
+        font-size: 36px;
+        color: #fff;
+    }
+}
+.images-parent{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 30px;
+}
+
+
+@include max-992 {
+    .images-parent{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+
+
+@include max-768 {
+    .images-parent{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+    }
+  
+}

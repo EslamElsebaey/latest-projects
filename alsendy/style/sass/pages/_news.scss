@@ -1,0 +1,17 @@
+ .events-page, .news-page{
+    padding: 60px 0 ;
+    .news-content-parent , .events-content-parent{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        column-gap: 30px;
+        row-gap: 50px;
+    }
+}
+
+ 
+@include max-768 {
+    .news-page  .news-content-parent ,  .events-page  .events-content-parent  {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}

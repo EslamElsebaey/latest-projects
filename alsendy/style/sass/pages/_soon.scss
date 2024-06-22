@@ -1,0 +1,110 @@
+
+.soon{
+    height: 100vh;
+    position: relative;
+}
+.soon-content{
+    width: 660px;
+    max-width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 1;
+}
+.soon-logo{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 439px;
+        max-width: 100%;
+    }
+}
+.soon-text{
+.soon-title{
+    font-size: 24px;
+    line-height: 40px;
+    color: #004658;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+.soon-title:first-of-type{
+    margin-bottom: 5px;
+}
+}
+
+.soon-contact{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 65px;
+
+}
+.soon-contact-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        font-size: 20px;
+        line-height: 28px;
+        color: #004658;
+        text-align: right;
+        display: block;
+        margin-bottom: 10px;
+        transition: all linear .2s;
+        &:hover{
+            color: #02c2da;
+        }
+    }
+    span{
+        font-size: 20px;
+        line-height: 28px;
+        color: #004658;
+        text-align: right;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #02c2da;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        i {
+            font-size: 24px;
+            color: #ffffff;
+            text-align: center;
+        }
+    } 
+}
+
+
+@include max-768 {
+    .soon-text .soon-title{
+        font-size: 18px;
+    }
+    .soon-content{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .soon-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .soon-text .soon-title:first-of-type{
+        margin-bottom: 0;
+    }
+    .soon-contact{
+        margin-top: 40px;
+    }
+    .soon-logo img{
+        width: 300px;
+    }
+    .soon-contact-item{
+        margin-bottom: 35px;
+    }
+}

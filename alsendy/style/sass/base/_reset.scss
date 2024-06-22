@@ -1,0 +1,27 @@
+.showToTop {
+    opacity: 1;
+    visibility: visible;
+}
+
+.rotate-select-icon::after{
+    transform: translateY(-50%) rotate(180deg) !important; 
+}
+
+.icon-rotate::after{
+    transform:  rotate(180deg)  !important;
+}
+
+
+.service-parent-edit{
+    display: flex;
+    columns : unset ;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.service-parent-edit .service-item:nth-child(2){
+    margin-top: 0;
+}
+
+.office-swiper .swiper-grid-column > .edit-office-swiper{
+    justify-content: flex-start;
+}

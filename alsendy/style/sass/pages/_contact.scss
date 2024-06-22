@@ -1,0 +1,176 @@
+.contact-sec{
+    padding: 50px 0;
+}
+.contact-parent{
+    margin-bottom: 65px;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    column-gap: 30px;
+    .contact-item{
+        background-color: #ffffff;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 25px 0 30px 0;
+        border: 2px solid #f2f2f2;
+        .icon-holder{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #02c2da;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            i{
+                font-size: 48px;
+                color: #ffffff;
+            }
+        }
+        span{
+            font-size: 16px;
+            color: #004658;
+            font-weight: 700;
+            text-align: center;
+            display: block;
+            margin-bottom: 12px;
+        }
+        .contact-method{
+            line-height: 20px;
+            font-size: 14px;
+            color: #004658;
+            font-weight: 300;
+            text-align: center;
+            transition: all linear .2s;
+            &:hover{
+                color: #02c2da;
+            }
+        }
+    }
+}
+
+
+.contact-parent .contact-item .span-contact-method:hover{
+    &:hover{
+        color: #004658;
+    }
+}
+.contact-form{
+    max-width: 560px;
+    padding-bottom: 35px;
+    margin: auto;
+    .title{
+        font-size: 24px;
+        line-height: 44px;
+        color: #004658;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .myform{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .mytextarea , .myInput{
+            border-radius: 23px;
+        }
+    }
+    
+}
+
+html[dir="ltr"]{
+    .contact-form .title{
+        line-height: 1.35;
+    }
+  
+}
+
+@include max-1200{
+    .contact-parent .contact-item{
+        padding: 20px 15px 20px 15px;
+    }
+    .contact-parent .contact-item .icon-holder{
+        width: 75px;
+        height: 75px;
+    }
+    .contact-parent .contact-item .contact-method{
+        line-height: 1.6;
+    }
+}
+
+@include max-992 {
+    .contact-parent{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 30px;
+    }
+    .contact-parent .contact-item{
+        width: calc((100%  / 3) - 20px);
+       min-height: 227px;
+    }
+    .contact-form .title{
+        font-size: 20px;
+        line-height: 39px;
+    }
+    html[dir="ltr"]{
+        .contact-parent .contact-item{
+            min-height: 250px;
+        }
+    }
+}
+
+@include max-768 {
+    .contact-form{
+        max-width: 100%;
+    }
+    .contact-form .title{
+        font-size: 17px;
+        line-height: 1.8;
+    }
+    .contact-form{
+        padding-bottom: 20px;
+    }
+    .contact-form .myform{
+        width: 100%;
+        max-width: 100%;
+        .general-input{
+            width: 100%;
+            input , textarea , .submitBtn{
+                width: 100%;
+            }
+        }
+    }
+    .contact-parent{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 20px;
+        justify-content: unset;
+        align-items: unset;
+    }
+    .contact-parent .contact-item {
+        width: 100%;
+        min-height: 205px;
+    }
+    html[dir=ltr] .contact-parent .contact-item{
+        min-height: 226px;
+    }
+    .contact-parent .contact-item .icon-holder{
+        width: 50px;
+        height: 50px;
+    }
+    .contact-parent .contact-item .icon-holder i{
+        font-size: 30px;
+    }
+    .contact-parent .contact-item .contact-method{
+        font-size: 13px;
+    }
+    .contact-parent .contact-item span{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .contact-parent .contact-item{
+        padding: 15px 10px;
+    }
+}

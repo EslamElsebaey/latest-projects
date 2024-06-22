@@ -1,0 +1,46 @@
+.videos{
+    padding: 50px 0;
+}
+
+.videos-parent{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 30px;
+}
+
+.vision-item a > div {
+    position: relative;
+}
+ .video-img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height:100%;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.302) 100%); 
+}
+
+
+.player-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+@include max-768 {
+    .videos-parent{
+        grid-template-columns: 1fr;
+       row-gap: 20px;
+    }
+    .player-icon{
+        width: 45px;
+    }
+    
+}

@@ -1,0 +1,28 @@
+.blog{
+    padding: 50px 0;
+}
+.blog-content{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    column-gap: 30px;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+// .blog-parent{
+//     display: grid;
+//     grid-template-columns: repeat(2 , 1fr);
+//     column-gap: 30px;
+//     row-gap: 50px;
+// }
+
+
+@include max-768 {
+    .blog-content{
+        grid-template-columns: 1fr;
+        row-gap: 35px;
+        margin-bottom: 30px;
+    }
+    .blog{
+        padding-bottom: 30px;
+    }
+}

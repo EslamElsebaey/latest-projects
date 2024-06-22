@@ -1,0 +1,68 @@
+.kreston{
+    padding: 70px 0;
+    .title {
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        font-weight: 700;
+        text-align: justify;
+        text-align-last: center;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        max-width: 82.9%;
+    }
+    p{
+        max-width: 82.9%;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        font-weight: 300;
+        text-align: justify;
+        text-align-last: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .banner-div{
+        margin-top: 50px;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+.logo-holder{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+@include max-768 {
+    .kreston .title{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .logo-holder {
+        img{
+            width: 180px;
+        }
+    }
+    .kreston p , .kreston .title{
+        max-width: 100%;
+    }
+    .kreston p{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .kreston{
+        padding: 50px 0;
+    }
+    .kreston .banner-div{
+        margin-top: 40px;
+    }
+    .logo-holder{
+        margin-bottom: 30px;
+    }
+    
+}

@@ -1,0 +1,121 @@
+.quality-standards{
+    padding: 70px 0;
+    .title{
+        font-size: 24px;
+        color: #004658;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+.quality-standards-parent{
+    display: grid; 
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 30px;
+    .quality-standards-item{
+        &:hover{
+            filter: drop-shadow(0 0 15px rgba(0,0,0,0.05));
+        }
+        width: 263px;
+        transition: filter linear .2s  ;
+        padding: 31px;
+        background-color: #ffffff;
+        border: 2px solid #f2f2f2;
+        text-align: center;
+        min-height: 213px;
+        .icon-holder{
+            height:61px;
+            margin-bottom: 30px;
+            i{
+                font-size: 60px;
+                color: #02c2da;
+                display: block;
+            }
+        }
+       
+        h4{
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+}
+
+html[dir="ltr"]{
+    .quality-standards-parent .quality-standards-item{
+        padding: 31px 18px;
+        min-height: 228.2px;
+    }
+    .quality-standards-parent .quality-standards-item h4{
+        line-height: 1.4;
+    }
+}
+
+
+@include max-1200{
+    .quality-standards-parent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .quality-standards-parent .quality-standards-item{
+        width: calc( (100% / 3)  - 20px);
+    }
+}
+
+@include max-992{
+    .quality-standards-parent{
+       display: grid;
+       grid-template-columns: repeat(2 , 1fr);
+       gap: 30px;
+    }
+    .quality-standards-parent .quality-standards-item{
+        width: 100%;
+    }
+    .quality-standards .title{
+        font-size: 20px;
+    }
+}
+
+
+@include max-768{
+    .quality-standards .title{
+        font-size: 17px;
+        line-height: 1.65;
+        margin-bottom: 30px;
+    }
+    .quality-standards-parent{
+       grid-template-columns: 1fr;
+       row-gap: 30px;
+    }
+    .quality-standards{
+        padding: 50px 0;
+    }
+    html[dir="ltr"]{
+        .quality-standards .title{
+            line-height: 1.5;
+        }
+    }
+    .quality-standards-parent .quality-standards-item .icon-holder i{
+        font-size: 45px;
+    }
+    .quality-standards-parent .quality-standards-item , html[dir=ltr] .quality-standards-parent .quality-standards-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 31px;
+    }
+    .quality-standards-parent .quality-standards-item .icon-holder{
+        height: 45px;
+        margin-bottom: 20px;
+    }
+    .quality-standards-parent .quality-standards-item h4{
+        font-size: 15px;
+    }
+   
+}

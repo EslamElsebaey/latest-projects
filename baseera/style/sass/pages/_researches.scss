@@ -1,0 +1,184 @@
+.researches{
+    .pagination-sec{
+        margin-bottom: 85px;
+    }
+    .title{
+        font-size: 30px;
+        color: #000000;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 35px;
+        text-transform: capitalize;
+    }
+    .researches-para{
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+        font-weight: 400;
+        text-align: justify;
+        text-align-last: center;
+        margin-bottom: 50px;
+    }
+}
+.researches-item-desc{
+    padding: 0 10px;
+}
+.researches-parent{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-bottom: 45px;
+}
+.researches-item{
+    text-align: center;
+    &:hover{
+        .researches-item-img img {
+            transform: scale(1.1);
+        }
+        .researches-item-title{
+            color: $main-color;
+        }
+    }
+    .researches-item-img{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            transition: all linear .2s;
+        }
+    }
+    .researches-item-title{
+        font-size: 15px;
+        line-height: 24px;
+        color: #000000;
+        font-weight: 700;
+        text-align: center;
+        transition: all linear .2s;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        min-height: 45px;
+    }
+}
+.inquiry-sec{
+    padding: 58px 15px;
+    overflow: hidden;
+    background-image: url(../images/programs-shape.png);
+    background-color: #ededed;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 40px;
+    .inquiry-title{
+        font-size: 30px;
+        color: #000000;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 24px;
+        color: #000000;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .callUsNow{
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 700;
+        border-radius: 5px;
+        background-color: #a63a50;
+        padding: 14px 62px;
+        min-width: 220px;
+        transition: all linear .2s;
+        &:hover{
+            background-color: $main-color;
+             color: #ffffff;
+        }
+    }
+}
+
+
+html[dir="ltr"]{
+    .researches .researches-para{
+        line-height: 1.7;
+    }
+    .researches-item .researches-item-title{
+        line-height: 1.5;
+    }
+}
+
+
+@include max-992 {
+    .researches-parent{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+
+@include max-768 {
+    .researches-parent{
+        grid-template-columns: repeat(2 , 1fr);
+        column-gap: 20px;
+        row-gap: 30px;
+        margin-bottom: 40px;
+    }
+    .researches-item .researches-item-title{
+        font-size: 14px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        min-height: 40px;
+    }
+    .researches .researches-para{
+        font-size: 15px;
+    }
+    .researches{
+        padding-top: 25px;
+    }
+    .researches .title{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .researches .researches-para{
+        margin-bottom: 40px;
+        line-height: 1.8;
+    }
+    .researches .pagination-sec{
+        margin-bottom: 65px;
+    }
+    .inquiry-sec{
+        padding: 40px 0px;
+        margin-bottom: 65px;
+    }
+    .inquiry-sec .inquiry-title{
+        font-size: 20px;
+    }
+    .inquiry-sec p{
+        font-size: 17px;
+        line-height: 1.7;
+        margin-bottom: 30px;
+    }
+    .inquiry-sec .callUsNow{
+        font-size: 17px;
+        padding: 12px 50px;
+        min-width: auto;
+    }
+   
+    html[dir="ltr"]{
+        .inquiry-sec .inquiry-title{
+            line-height: 1.35;
+        }
+        .researches-item .researches-item-title , .inquiry-sec p{
+            line-height: 1.4;
+        }
+        .researches .researches-para{
+            line-height: 1.6;
+        }
+        
+    }
+}

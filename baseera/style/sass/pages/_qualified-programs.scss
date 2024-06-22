@@ -1,0 +1,101 @@
+.qualified-programs  , .programs-general , .development-programs{
+    padding-bottom: 120px;
+    p{
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-align: justify;
+        text-align-last: center;
+    }
+}
+.programs-general{
+    .title{
+        font-size: 30px;
+        line-height: 1.7;
+        color: #000000;
+        font-weight: 700;
+        font-family: "Cairo";
+        text-align: center;
+        margin-bottom: 50px;
+        text-transform: capitalize;
+    }
+    .explained-title{
+        font-size: 20px;
+        line-height: 1.7;
+        color: #18778d;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+.qualified-prog-parent{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
+.qualified-prog-parent2{
+    max-width: 64%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    column-gap: 30px;
+}
+.qualified-programs .explained-title2 , .development-programs .explained-title {
+    margin-bottom: 30px;
+}
+
+html[dir="ltr"]{
+    .qualified-programs p , .development-programs p{
+        line-height: 1.7;
+    }
+    .qualified-programs .explained-title , .development-programs .explained-title  {
+        line-height: 1.4;
+    }
+}
+
+
+@include max-1200{
+    .qualified-prog-parent{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px;
+    }
+    .qualified-prog-parent2{
+        max-width: 100%;
+    }
+}
+
+@include max-768 {
+    .qualified-prog-parent , .qualified-prog-parent2 {
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    .qualified-programs , .programs-general , .development-programs{
+        padding-bottom: 80px;
+    }
+    .programs-general .title{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .programs-general .explained-title{
+        font-size: 17px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+    .qualified-programs , .development-programs{
+        padding-top: 25px;
+    }
+    .qualified-programs p , .development-programs p{
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    .qualified-programs .explained-title2 , .development-programs .explained-title2{
+        margin-bottom: 20px;
+    }
+    .qualified-prog-parent{
+        margin-bottom: 55px;
+    }
+}

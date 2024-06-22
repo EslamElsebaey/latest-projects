@@ -1,0 +1,396 @@
+//************************************************************************************************
+
+// Portfolio Section
+
+
+.portfolio{
+    padding-top: 124px;
+}
+.portfolio-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+.title{
+    font-size: 35px;
+    color: #271f1e;
+    text-transform: capitalize;
+}
+
+}
+
+.viewAllWorks{
+    width: 303px;
+    max-width: 303px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #9a7a4d;
+    font-size: 17px;
+    color: #ffffff;
+    transition: all ease-in-out .2s ;
+    column-gap: 25px;
+    .icon{
+        color: #fff;
+        font-size: 16px;
+        transition: all ease-in-out .2s ;
+    }
+    &:hover{
+        background-color: #271f1e;
+        color: #ffffff;
+        transform: translateY(-5px) !important;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        .icon{
+            transform: translateX(7px);
+        }
+    }
+}
+
+.portfolio-cont{
+    .nav-tabs .nav-link{
+        padding: 0 33px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        height: 48px;
+        border-radius: 10px;
+        background-color: transparent;
+        border: 1px solid #9a7a4d;
+        font-size: 15px;
+        color: #271f1e;
+        overflow: hidden;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            height: 0;
+            top: 100%;
+            width: 100%;
+            height: 100%;
+            transition: all linear 0.2s;
+            background-color: #9a7a4d;
+            z-index: -1;
+        }
+        &:hover{
+            &::after{
+                top: 0;
+            }
+            color: #ffffff;
+        }
+     
+    }
+    .nav-tabs .nav-link.active{
+        background-color: #9a7a4d;
+        color: #ffffff;
+    }
+    .nav-tabs{
+        column-gap: 22px;
+        border: none;
+    }
+    
+}
+
+.portfolio{
+    .tab-content{
+        margin-top: 48px;
+    }
+}
+
+.project-item{
+    .img-holder{
+        img{
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+
+        }
+    }
+}
+
+.project-item{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    .project-overlay{
+        padding-inline-start: 70px;
+        padding-inline-end: 30px;
+        position: absolute;
+        border-radius: 10px;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #dbd0c0, $alpha: 0.827);
+        z-index: 1;
+        top: 100%;
+        transition: all .3s ease-in-out;
+    }
+    &:hover{
+        .project-overlay{
+            top: 0;
+        }
+    }
+}
+.proj-cont{
+    margin-top: 300px;
+    max-width: 496px;
+    .proj-title{
+        font-size: 27px;
+        color: #271f1e;
+        margin-bottom: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 40px;
+    }
+    .proj-desc{
+        font-size: 14px;
+        color: #271f1e;
+        font-weight: 300;
+        line-height: 21px;
+        margin-bottom: 6px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 63px;
+
+    }
+    
+}
+
+.portfolio , .clients-reviews{
+    .swiper-button-next, .swiper-button-prev{
+        width: 37px;
+        height: 37px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none !important;
+        outline: none !important;
+        transition: background-color .2s ease-in-out;
+        overflow: hidden;
+        &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 101%;
+            height: 101%;
+            transition: all linear 0.2s;
+            background-color: #271f1e;
+            z-index: -1;
+        }
+        &:hover{
+            background-color: #271f1e;
+            &::after{
+                top: 0;
+            }
+            .icon{
+                color: #ffffff;
+            }
+            i{
+                color: #fff;
+            }
+            
+        }
+    
+        i {
+            color: #271F1E;
+            font-size: 20px;
+        }
+    }
+}
+
+.portfolio{
+    overflow: hidden;
+    .swiper{
+        overflow: unset;
+    }
+    .swiper-button-prev, .swiper-rtl .swiper-button-next{
+        right: -75px;
+        left: unset;
+        transform: rotate(180deg);
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        left: -75px;
+        right: unset;
+        transform: rotate(180deg);
+    }
+   
+}
+
+
+
+.proj-cont{
+    .proj-link {
+        font-size: 13px;
+        color: #271f1e;
+        position: relative;
+        padding: 10px;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            background-color: #271F1E;
+            z-index: -1;
+            transition: all 0.2s ease-in-out;
+        }
+        &:hover{
+            color: #fff;
+            &::before{
+                height: 100%;
+            }
+        }
+      }
+}
+
+
+.page-portfolio-sec {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    .portfolio-cont{
+        justify-content: center;
+    }
+    .projects-parent{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px;
+    }
+}
+
+
+@include min-992 {
+    .portfolio .container > .viewAllWorks{
+        display: none;
+    }
+}
+  
+
+@include max-1700{
+    .proj-cont{
+        margin-top: 250px;
+    }
+}
+
+@include max-1400{
+     .viewAllWorks{
+        max-width : 280px
+    }
+}
+
+@include max-1200 {
+    .portfolio-cont{
+        row-gap: 25px;
+        > nav{
+            order: 3;
+            margin-inline: auto;
+        }
+    } 
+    .viewAllWorks{
+        order: 2;
+    }
+}
+
+@include max-992 {
+    .portfolio {
+        .tab-content{
+            margin-bottom: 50px;
+        }
+        .container > .viewAllWorks{
+            margin-inline: auto;
+            max-width: 270px;
+        }
+    } 
+    .proj-cont{
+        margin-top: 80px;
+    }
+    .project-item .project-overlay{
+        padding-inline-start: 30px;
+    }
+    .portfolio-cont{
+        justify-content: center;
+        > .viewAllWorks{
+            display: none;
+        }
+    }
+}
+
+@include max-768 {
+    .page-portfolio-sec .projects-parent{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .viewAllWorks {
+        column-gap: 20px;
+    }
+    .portfolio-cont {
+        > nav{
+            order: 2;
+            width: 100%;
+        }
+        .title{
+            font-size: 25px;
+            width: 100%;
+            text-align: center;
+        }
+        .nav-tabs{
+            justify-content: unset;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding-left: 1px;
+            gap: 15px;
+            &::-webkit-scrollbar{
+                display: none;
+            }
+            .nav-link{
+                height: 35px;
+                padding: 0 20px ;
+                flex-shrink: 0;
+            }
+        }
+    } 
+    .portfolio {
+        padding-top: 50px;
+        .swiper-button-next, .swiper-button-prev{
+            display: none;
+        }
+        .tab-content{
+            margin: 30px 0;
+        }
+    } 
+    .proj-cont {
+        .proj-title{
+            font-size: 22px;
+        }
+        .proj-desc{
+            margin-bottom: 10px;
+        }
+    } 
+    .project-item .project-overlay{
+        padding-inline: 25px;
+    }
+    .page-portfolio-sec{
+        .tab-content{
+            margin-bottom: 0;
+        }
+        padding-bottom: 60px;
+    }
+}
+
+
+
+//************************************************************************************************

@@ -1,0 +1,122 @@
+.philo-thinking{
+    padding-bottom: 110px;
+    .video {
+            margin-bottom: 45px;
+        iframe{
+            aspect-ratio: 16 / 9;
+            width: 100%;
+        }
+    }
+}
+.philo-title{
+    font-size: 24px;
+    color: #18778d;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+.second-title{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+.philo-thinking-content{
+    ol {
+        ul{
+            margin-bottom: 25px;
+        }
+        h3 {
+            font-size: 20px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .second-title{
+            margin-bottom: 10px;
+            text-align: justify;
+            text-align-last: start;
+        }
+    }
+    margin-bottom: 50px;
+    ul {
+        margin-inline-start: 30px;
+        li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            p {
+                font-size: 18px;
+                line-height: 30px;
+                color: #000000;
+                font-weight: 400;
+                text-align: start;
+                margin-inline-start: 15px;
+                margin-bottom: 0;
+            }
+            i {
+                font-size: 24px;
+                line-height: 30px;
+                color: #a63a50;
+            }
+        }
+    }
+}
+.lower-sec{
+   padding: 15px;
+    background-color: #f5f5f5;
+    direction: ltr;
+}
+
+
+@include max-768 {
+    .philo-title{
+        font-size: 17px;
+        line-height: 1.7;
+        margin-bottom: 12px;
+    }
+    .philo-thinking-content ul{
+        margin-inline-start: 0px;
+    }
+    .philo-thinking-content ul li p{
+        font-size: 15px;
+        text-align: justify;
+        text-align-last: start;
+    }
+    .second-title{
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    .philo-thinking-content ul li{
+        margin-bottom: 10px;
+    }
+    .philo-thinking-content ol h3{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .philo-thinking{
+        padding-bottom: 80px;
+        padding-top: 20px;
+    }
+    .philo-thinking-content ul li p{
+        margin-inline-start: 7px;
+        line-height: 1.9;
+    }
+    .philo-thinking .video{
+        margin-bottom: 25px;
+    }
+    .lower-sec{
+        text-align: start;
+    }
+    html[dir="ltr"]{
+        .philo-title {
+            line-height: 1.4;
+        }
+        .philo-thinking-content ul li p{
+            line-height: 1.6;
+        }
+         .second-title{
+            line-height: 1.5;
+        }
+    }
+}

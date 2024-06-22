@@ -1,0 +1,641 @@
+.vision-message-sec{
+    padding-bottom: 70px;
+}
+.about-baseera-publish{
+    .baseera-house-logo{
+        margin: auto;
+        display: block;
+        margin-bottom: 60px;
+    }
+    
+    .bg-orange{
+        background-color: #eda666;
+    }
+    .bg-darkRed {
+        background-color: #6f3755;
+    }
+    .vision-message-item{
+        border-radius: 5px;
+        background-color: #a63a51;
+        padding: 35px 30px;
+        text-align: center;
+        img{
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        i{
+            font-size: 48px;
+            color: #ffffff;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        h4{
+            font-size: 18px;
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+        p , ul li{
+            font-size: 16px;
+            line-height: 30px;
+            color: #ffffff;
+            font-weight: 400;
+            margin-bottom: 0;
+            text-align: justify;
+            text-align-last: center;
+        }
+    }
+    .vision-message-parent{
+        display: grid;
+        grid-template-columns: repeat(3  , 1fr);
+        column-gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+.about-baseera-publish{
+    .targets{
+        h4{
+            font-size: 20px;
+            color: #000000;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+        }
+        ul{
+            margin-inline-start: 25px;
+        }
+        ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            p{
+                font-size: 18px;
+                line-height: 30px;
+                color: #000000;
+                font-weight: 400;
+                margin-inline-start: 15px;
+                margin-bottom: 0;
+            }
+            i {
+                font-size: 24px;
+                line-height: 30px;
+                color: #a63a50;
+            }
+        }
+    }
+}
+
+
+.logo-story{
+    padding: 65px 15px;
+    background-color: #18778d;
+    text-align: center;
+    img{
+        margin-bottom: 25px;
+    }
+    h3 {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 400;
+        text-align: center;
+        max-width: 75%;
+        margin: auto;
+        margin-bottom: 0;
+        text-align: justify;
+        text-align-last: center;
+    }
+}
+
+.latest-releases , .books{
+    padding: 75px 0 120px 0;
+    .title{
+        font-size: 30px;
+        color: #000000;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+    }
+}
+
+.latest-releases{
+    .release-parent{
+        position: relative;
+    }
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after , .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+        content: "";
+    }
+    .swiper-button-next, .swiper-button-prev{
+        border-radius: 20px;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: rgba(0, 0, 0, 0.302);
+        border-radius: 50%;
+        transition: all linear 0.2s;
+         top: calc(297px / 2 );
+        i {
+            font-size: 18px;
+            color: #fff;
+            text-align: center;
+        }
+        &:hover{
+            background-color: $main-color;
+
+        }
+    }
+     .swiper-button-prev,  .swiper-rtl .swiper-button-next{
+        left: -65px;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        right: -65px;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: -40px;
+    }
+    .swiper-pagination-bullet{
+        opacity: 0.302;
+        background-color: #000000;
+    }
+    .swiper-pagination-bullet-active{
+         background-color: #18778d;
+         opacity: 1;
+    }
+}
+
+
+
+
+
+.latest-releases , .books{
+    .release-item-desc{
+        padding: 15px 30px;
+        text-align: center;
+        .release-item-name{
+            font-size: 15px;
+            text-transform: capitalize;
+            line-height: 24px;
+            color: #000000;
+            font-weight: 700;
+            text-align: center;
+            transition: all linear .2s;
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            &:hover{
+                color: $main-color;
+            }
+        }
+        .price {
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 12px;
+            span.current-price {
+                font-size: 16px;
+                line-height: 30px;
+                font-weight: 700;
+                color: #a63a50;
+            }
+            span.deleted-price{
+                text-decoration: line-through;
+                color: #999999;
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+        .know-more{
+            width: 128px;
+            height: 45px;
+            border-radius: 5px;
+            background-color: #a63a50;
+            font-size: 14px;
+            line-height: 30px;
+            color: #ffffff;
+            font-weight: 700;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all linear .2s;
+            margin: auto;
+            &:hover{
+                background-color: $main-color;
+            }
+        }
+    }
+}
+
+html[dir="ltr"]{
+    .about-baseera-publish .vision-message-item p, .about-baseera-publish .vision-message-item ul li{
+        line-height: 1.5;
+    }
+    .about-baseera-publish .targets ul li{
+        margin-bottom: 5px;
+    }
+    .logo-story p{
+        line-height: 1.6;
+    }
+}   
+
+
+
+
+.books{
+    padding: 5px 0 110px 0;
+    .books-parent{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        column-gap: 100px;
+        row-gap: 60px;
+    }
+}
+
+.books .title{
+    margin-bottom: 35px;
+}
+
+
+.pagination-sec{
+    margin-top: 50px;
+}
+
+.pagination-sec-parent{
+    max-width: 300px;
+    margin: auto;
+    display: grid;
+   grid-template-columns: repeat(6 , 1fr);
+   column-gap: 10px;
+    a{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #ededed;
+        font-size: 18px;
+        color: #999999;
+        font-weight: 500;
+        // font-family: "Tajawal";
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       &:hover{
+        color: #999999;
+       }
+    }
+    a.next , a.prev{
+        font-size: 16px;
+    }
+    a.page-active{
+        background-color: $main-color;
+        color: #fff;
+    }
+}
+
+// *********************************************************************************************
+// Book Details
+.book-details{
+    margin-bottom: 90px;
+}
+.book-details-parent{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+}
+.book-details-desc{
+    .title{
+        font-size: 30px;
+        color: #000000;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    .text-desc{
+        font-size: 18px;
+        line-height: 30px;
+        color: #000000;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-align: justify;
+
+    }
+    .author-details-item{
+        display: grid;
+        grid-template-columns: 85px auto;
+        margin-bottom: 10px;
+        span{
+            font-size: 14px;
+            color: #000000;
+        }
+        span:first-of-type {
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+        span:last-of-type{
+            font-weight: 400;
+        }
+    }
+    .author-details{
+        margin-bottom: 30px;
+    }
+    .book-price{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        .book-current-price{
+            font-size: 24px;
+            line-height: 30px;
+            color: #a63a50;
+            font-weight: 700;
+        }
+        .book-deleted-price{
+            font-size: 24px;
+            text-decoration: line-through;
+            color: #999999;
+            font-weight: 400;
+            margin-inline-start: 10px;
+        }
+    }
+    .buy-now{
+        padding: 14px 66px;
+        min-width: 200px;
+        border-radius: 5px;
+        background-color: $second-color;
+        font-size: 18px;
+        color: #ffffff;
+        position: relative;
+        font-weight: 700;
+        z-index: 1;
+        transition: all linear .2s;
+        &:hover{
+          background-color: $main-color;
+        }
+    }
+    
+}
+
+
+.offered-books{
+    padding-top: 0;
+    padding-bottom: 140px;
+}
+
+html[dir="ltr"]{
+    .book-details-desc .author-details-item{
+        grid-template-columns: 130px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+// **********************************************************************************************
+
+
+
+
+@include max-1200{
+    .latest-releases .swiper-button-next, .latest-releases .swiper-button-prev{
+        top: calc(372.41px / 2);
+    }
+    .books .books-parent{
+        column-gap: 50px;
+        row-gap: 40px;
+    }
+}
+
+
+@include max-992{
+    .books .books-parent{
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 40px;
+    }
+    .vision-message-parent{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px;
+    }
+    .latest-releases .swiper-button-next, .latest-releases .swiper-button-prev{
+        display: none;
+    }
+    .about-baseera-publish .targets ul li{
+        align-items: flex-start;
+    }
+    .book-details-img{
+        img{
+            width: 250px;
+        }
+    }
+    .book-details-desc .text-desc{
+        margin-bottom: 25px;
+    }
+}
+
+@include max-768{
+    .books .books-parent{
+        grid-template-columns: repeat(2 , 1fr);
+        column-gap: 15px;
+        row-gap: 20px;
+    }
+    .about-baseera-publish .vision-message-parent{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .pagination-sec-parent a{
+        width: 35px;
+        height: 35px;
+    }
+    .books{
+        padding: 25px 0 70px 0;
+    }
+    .pagination-sec{
+        margin-top: 35px;
+    }
+    .pagination-sec-parent{
+        max-width: 100%;
+       display: flex;
+       justify-content:center;
+       align-items: center;
+       gap: 12px;
+    }
+    .about-baseera-publish .baseera-house-logo{
+        width: 140px;
+        margin-bottom: 40px;
+    }
+    .about-baseera-publish{
+        padding-top: 20px;
+    }
+    .about-baseera-publish .vision-message-item{
+         padding: 25px ;
+         
+    }
+    .about-baseera-publish .targets ul{
+        margin-inline-start: 0px;
+    }
+    .logo-story{
+        padding: 50px 0;
+    }
+    .logo-story img{
+        width: 130px;
+    }
+    .latest-releases .release-item-desc .know-more ,  .books .release-item-desc .know-more{
+        padding: 5px 20px;
+        height: auto;
+        width: auto;
+        display: inline-block;
+    }
+    .latest-releases .release-item-desc .price{
+        flex-direction: column;
+        min-height: 57.2px;
+        justify-content: flex-start;
+    }
+    .latest-releases .release-item-desc , .books .release-item-desc{
+        padding: 10px;
+    }
+    .latest-releases .release-item-desc .release-item-name , .books .release-item-desc .release-item-name {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        min-height: 30px;
+    }
+    .latest-releases .release-item-desc .price .current-price , .books .release-item-desc .price .current-price {
+        margin-inline-end: 0;
+    }
+    .latest-releases .title , .books .title {
+        font-size: 20px;
+    }
+    .about-baseera-publish .vision-message-item p{
+        text-align: justify;
+        text-align-last: center;
+        line-height: 1.8;
+        font-size: 15px;
+    }
+    .about-baseera-publish .vision-message-item i{
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+    .about-baseera-publish .vision-message-item h4{
+        margin-bottom: 15px;
+    }
+    .about-baseera-publish .targets h4{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .about-baseera-publish .targets ul li p{
+        font-size: 15px;
+        margin-inline-start: 10px;
+        line-height: 1.7;
+    }
+    html[dir="ltr"]{
+        .about-baseera-publish .targets ul li p{
+            line-height: 1.5;
+        }
+        .about-baseera-publish .targets ul li{
+            margin-bottom: 10px;
+        }
+    }
+   
+    .about-baseera-publish .targets ul li{
+        align-items: flex-start;
+        margin-bottom: 8px;
+    }
+
+    .logo-story h3{
+        font-size: 18px;
+    }
+    .logo-story p{
+        max-width: 100%;
+        text-align: justify;
+        text-align-last: center;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .logo-story{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .latest-releases , .books{
+        padding: 50px 0 90px 0;
+    }
+    .latest-releases .release-item-desc .price span , .books .release-item-desc .price span {
+        line-height: 1.7;
+    }
+    .books{
+        padding: 25px 0 80px 0;
+    }
+    .books .title{
+        margin-bottom: 30px;
+    }
+     .books .release-item-desc .price{
+        flex-direction: column;
+        justify-content: flex-start;
+        min-height: 57.2px;
+    }
+    .book-details-parent{
+        grid-template-columns: 1fr;
+    }
+    .book-details-img{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .book-details-img img{
+        width: 200px;
+    }
+    .book-details{
+        padding-top: 35px;
+        margin-bottom: 30px;
+    }
+    .book-details-desc .title{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .book-details-desc .text-desc{
+        font-size: 15px;
+    }
+    .book-details-desc .text-desc{
+        margin-bottom: 20px;
+        line-height: 1.9;
+    }
+    .book-details-desc .author-details{
+        margin-bottom: 20px;
+    }
+    .book-details-desc .book-price{
+        justify-content: center;
+    }
+
+    .book-details-desc .buy-now{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        bottom: 0;
+        width: calc(100% + 20px);
+        margin-inline-start: -10px;
+    }
+    .offered-books{
+        padding: 30px 0 100px 0;
+   }
+   html[dir="ltr"]{
+    .book-details-desc .text-desc{
+        line-height: 1.7;
+    }
+    .book-details-desc .author-details-item {
+        grid-template-columns : 110px auto ;
+    }
+   }
+
+}

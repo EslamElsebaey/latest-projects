@@ -1,0 +1,59 @@
+html[dir="ltr"]{
+    .title-text{
+        line-height: 1.3;
+    }
+}
+
+@include max-768{
+    .title-text{
+        font-size: 20px !important;
+        line-height: 1.4;
+        margin-bottom: 25px !important ;
+    }
+    .modal-content{
+        padding: 50px 30px 40px 30px;
+    }
+    .modal-open .modal{
+        padding: 0 20px !important;
+    }
+    .myform .myInput{
+        height: 40px;
+    }
+    .myform{
+        margin-top: 20px;
+    }
+    html[dir="ltr"]{
+        .title-text{
+            line-height: 1.35;
+        }
+    }
+}
+
+
+.header-box-shadow {
+  box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px  ;
+}
+
+.logo .moc-logo-scroll {
+    width: 90px;
+}
+.logo .baseera-logo-scroll {
+    height: 60px;
+}
+.main-nav-scroll {
+    padding: 5px 0;
+}
+.nav-scroll {
+    height: 40px;
+}
+.body-overflow-hidden {
+    overflow: hidden;
+}
+.preloader-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hide-search {
+    display: none ;
+}

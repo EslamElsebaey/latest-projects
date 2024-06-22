@@ -1,0 +1,345 @@
+
+footer{
+    padding: 55px 0 40px 0;
+    background-color: $main-color;
+    a:hover{
+        text-decoration: none;
+    }
+    .footer-title{
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+    }
+}
+.important-links{
+    max-height: 180px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+html[dir = "ltr"]{
+    .message {
+        input {
+            padding: 0 50px 0 20px;
+        }
+    }
+}
+.logo-info {
+    display: flex;
+    align-items: center;
+    img:nth-of-type(2) {
+       margin-inline-start: 30px;
+    }
+}
+
+
+
+.quick-links {
+ul li {
+    font-size: 16px;
+    line-height: 32px;
+   a{
+    font-size: 14px;
+    color: #80cee0;
+    font-weight: 400;
+    transition: all linear .2s;
+    &:hover{
+        color: #fff;
+    }
+    &:focus{
+        text-decoration: none;
+    }
+    &:active{
+        text-decoration: none;
+    }
+   }
+}
+}
+.newsletter{
+    .newsletter-text{
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 400;
+       margin-bottom: 15px;
+        line-height: 24px; 
+    }
+}
+html[dir="ltr"]{
+    .newsletter .newsletter-text{
+        line-height: 1.5;
+    }
+}
+
+.message {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    .send {
+        font-size: 20px;
+        color: #000000;
+        position: absolute;
+        inset-inline-end: 18px;
+        transform:   translateY(-50%) rotate(180deg);
+        top: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all linear .3s;
+        padding: 0;
+        i{
+            transition: all linear .2s;
+        }
+        &:hover{
+            i{
+                color: $main-color;
+            }
+        }
+    }
+    input{
+        width: 360px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        transition: all linear .3s;
+        max-width: 100%;
+        outline: none ;
+        border: 2px solid transparent;
+        color: #000;
+        padding:0 20px 0 50px;
+        font-size: 16px;
+        font-weight: 400;
+        &::-webkit-input-placeholder{
+            font-size: 12px;
+            color: #b3b3b3;
+            font-weight: 600;
+        }
+        &:focus{
+            border-color: #fff ;
+        }
+    }
+    .mail-icon{
+        color: $main-color;
+        font-size: 21px;
+    }
+}
+
+html[dir="ltr"]{
+    .send i{
+        transform: rotate(180deg);
+    }
+}
+.tasawk{
+text-decoration: none;
+display: flex;
+align-items: center;
+font-size: 14px;
+color: #fff;
+font-weight: 500;
+img{
+    margin-inline-start: 5px;
+}
+}
+
+.copyright{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        font-size: 12px;
+        color: #ffffff;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+}
+.social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25px;
+    a{
+        margin-inline-end: 25px;
+        max-width: 25px;
+        max-height: 100%;
+        &:focus{
+            text-decoration: none;
+        }
+        &:hover{
+           img{
+            opacity: 1;
+           }
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            transition: all linear .2s;
+            opacity: .6;
+        }
+    }
+    a:last-of-type{
+        margin-inline-end: 0;
+    }
+}
+
+
+
+
+
+
+
+
+@include max-768 {
+    html[dir="ltr"]{
+        .newsletter .newsletter-text{
+            line-height: 1.4;
+        }
+    }
+    .social-footer{
+        margin-bottom: 0;
+        justify-content: center;
+    }
+    .img-col{
+        display: flex;
+        justify-content: center;
+        order: 5;
+        margin-top: 20px;
+    }
+    .newsletter .newsletter-text{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .important-links{
+        max-height: none;
+    }
+   
+    .quick-links{
+        width: 100%;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .quick-drop{
+        height: auto;
+    }
+    .contact , .newsletter  , .quick-links {
+        padding-bottom: 23px;
+        ul li:first-child , .nested{
+            padding-top: 10px;
+        }
+    }
+    .quick-links ul li:first-child{
+        padding-top: 8px;
+    }
+    .contact ul li{
+        margin-bottom: 12px;
+    }
+    .quick-drop , .contact ul , .newsletter .nested{
+        display: none;
+    }
+    .copyright{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer{
+        padding: 50px 0 40px 0;
+    }
+   
+   
+    .message{
+        width: 100%;
+        input{
+            width: 100%;
+             &::placeholder{
+                 font-size: 13px;
+             }
+         }
+    }
+     
+    .social a:last-of-type{
+        margin-inline-end: 0;
+    }
+   
+    .quick-links ul li{
+        font-size: 14px;
+    }
+    .contact ul li a{
+        font-size: 14px;
+    }
+    .newsletter p{
+        font-size: 14px;
+    }
+    .copyright p{
+        order: 2;
+        text-align: center;
+        line-height: 25px;
+        width: 100%;
+        margin:  0;
+    }
+    
+    footer .footer-title{
+        margin-bottom: 0;
+        text-transform: capitalize;
+        cursor: pointer;
+        position: relative;
+        &::after {
+            font-size: 17px;
+            content: "\f107";
+            transition: all linear .3s;
+            font-family: "line Awesome free";
+            position: absolute;
+            inset-inline-end: 0;
+            top: 0;
+        }
+    }
+   
+    .tasawk{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 5;
+        margin: 0 !important;
+        img{
+            margin-inline-start: 5px;
+        }
+    }
+    .logo-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+   
+ 
+
+    .arrow-rotate::after {
+        transform: translateY(-50%) rotate(180deg)  !important;
+        top: 10px !important;
+    }
+    .rotate-icon-special::after {
+        transform: rotate(180deg);
+    }
+}
+
+@media screen and (min-width : 768px) and (max-width : 992px) {
+    .newsletter-item{
+        margin-top: 30px;
+    }
+}
+
+
+@include min-768 {
+    .footer-item{
+        margin-top: 20px;
+    }
+    .img-item{
+        margin-top: 0;
+    }
+}
+

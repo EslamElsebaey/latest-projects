@@ -1,0 +1,99 @@
+
+.order-success{
+    padding: 35px 0 120px 0;
+}
+
+.order-success-content{
+    i {
+        font-size: 72px;
+        color: #25d366;
+        margin-bottom: 25px;
+    }
+    max-width: 390px;
+    text-align: center;
+    margin: auto;
+    .thanks-text{
+        font-size: 18px;
+        line-height: 1.35;
+        color: #000000;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .order-detail-div{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span{
+            font-size: 16px;
+            line-height: 28px;
+            color: #000000;
+            font-weight: 400;
+            text-align: center;
+            line-height: 1.9;
+        }
+        span:first-of-type{
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+    }
+    .buttons{
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+           padding: 10px 26px;
+           min-width: 180px;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: 700;
+            transition: all linear .2s;
+        }
+        a.backHome-btn{
+            background-color: #a63a50;
+            margin-inline-start: 10px;
+            &:hover{
+                background-color: $main-color;
+                color: #ffffff;
+            }
+        }
+        a.print-invoice-btn{
+            background-color: #eca766;
+            &:hover{
+                opacity: .9;
+            }
+        }
+    }
+
+}
+
+html[dir="ltr"]{
+    .order-success-content .order-detail-div span{
+        line-height: 1.6;
+    }
+}
+
+@include max-768 {
+    .order-success-content{
+        max-width: 100%;
+    }
+    .buttons{
+        flex-direction: column;
+    }
+    .order-success-content .buttons a.backHome-btn{
+        margin-inline-start: 0;
+    }
+    .order-success-content .buttons a.print-invoice-btn{
+        margin-bottom: 20px;
+    }
+    .order-success-content i{
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+    .order-success{
+        padding: 30px 0 80px 0;
+    }
+}

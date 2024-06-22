@@ -1,0 +1,80 @@
+// bread crump 
+
+.breadcrumb-sec{
+    padding:30px 0 40px 0;
+}
+
+.item-home::after{
+    content: " / ";
+    padding: 0 5px;
+    color: #808080;
+}
+.breadcrumb{
+    background-color: transparent;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 0;
+    row-gap: 4px;
+   
+}
+
+html[dir="ltr"]{
+    .breadcrumb{
+        row-gap: 2px;
+    }
+}
+
+
+.bread-link{
+    transition: all linear .2s;
+    &:hover{
+        color: $main-color;
+    }
+}
+
+ol.breadcrumb li a, ol.breadcrumb li span, ol.breadcrumb li {
+    transition: all 0.2s linear;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #808080;
+    font-weight: 600;
+    text-decoration: none ;
+}
+
+//end of  bread crump 
+
+
+.about-banner figure {
+    margin: 0;
+    img {
+        width: 100%;
+    }
+}
+.about-common-questions{
+    padding: 70px 0 110px 0;
+    .ques-num{
+        font-weight: 700;
+    }
+}
+
+
+@include max-992 {
+    .breadcrumb-sec {
+       padding:  20px 0 25px 0 ;
+    }
+}
+
+
+@include max-768 {
+    .breadcrumb-sec {
+       padding:  10px 0 15px 0 ;
+    }
+    .about-common-questions{
+        padding: 50px 0 60px 0;
+    }
+    .about-banner figure img{
+        min-height: 150px;
+        object-fit: cover;
+    }
+}

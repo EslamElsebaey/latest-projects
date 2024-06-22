@@ -1,0 +1,832 @@
+
+body{
+    padding-top: 160px;
+}
+
+@include max-992{
+    body{
+        padding-top: 137.68px;
+    }
+}
+
+@include max-768{
+    body{
+        padding-top: 117px;
+    }
+}
+
+header{
+    background-color: #fff;
+    transition: all linear 0.3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+}
+
+
+.li-drop {
+    position: relative;
+    padding: 12px 0;
+     > a{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        &::after{
+            content: "\f107";
+            font-family: "line Awesome free";
+            font-weight: 900;
+            font-size: 12px;
+            margin-inline-start: 3px;
+        }
+    }
+    &:hover{
+        .ul-drop {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    .ul-drop{
+        transition: all linear .3s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        top: 100%;
+        z-index: 11;
+        opacity: 0;
+        visibility: hidden;
+        min-width: 160px ;
+        border-radius: 7px;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        li {
+            text-align: center;
+            transition: all linear .3s;
+            margin-bottom: 10px;
+            a:hover{
+                color: $main-color;
+            }
+        }
+        a{
+            font-size: 13px;
+            line-height: 1.7;
+            color: #000 ;
+           text-align: center;
+           display: block;
+            font-weight: 500;
+            text-transform: capitalize;
+            transition: all linear .2s;
+        }
+    }
+}
+
+
+
+
+.logo {
+    a:first-of-type {
+        margin-inline-end: 30px;
+    }
+    display: flex;
+    align-items: center;
+    .moc-logo{
+        width: 120px;
+    }
+    .baseera-logo{
+        height: 95px;
+    }
+}
+
+
+.account-text{
+display: flex;
+align-items: center;
+}
+.mylang-text{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+nav {
+.mynav{
+    position: relative;
+}
+}
+
+.main-nav{
+padding: 10px  0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.search-item {
+    width: 564px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+input{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 0  40px;
+    background-color: #f5f5f5;
+    border: none;
+    outline: none !important;
+    border: 2px solid transparent;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 400;
+    transition: all linear .2s;
+    &::placeholder{
+        font-size: 12px;
+        color: #8e8e8e;
+    }
+    &:focus{
+        outline: none;
+        border-color:$main-color;
+    }
+}
+}
+
+html[dir="ltr"]{
+    .search-item input{
+        padding: 0 40px  0 20px  ;
+    }
+    
+}
+
+
+.arabic-text{
+.lang-type{
+    font-size: 14px;
+    color: #808080;
+    font-weight: 400;
+}
+
+}
+.search-btn{
+position: absolute;
+inset-inline-end: 15px;
+padding: 0;
+top: 50%;
+transform: translateY(-50%);
+border: none;
+background: transparent;
+overflow: hidden;
+i {
+    font-size: 20px;
+    color: #000000;
+    transform: scaleX(-1);
+    display: block;
+}
+}
+.account-details{
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 10px;
+    z-index: 999;
+    top: 100%;
+    left: 50%;
+    min-width: 115px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.3s;
+    transform: translateX(-50%);
+li:first-of-type {
+    margin-bottom: 8px;
+}
+
+a{
+color: #000;
+font-weight: 500;
+text-transform: capitalize;
+font-size: 12px;
+&:hover{
+    text-decoration: none;
+}
+}
+a:first-child{
+margin-bottom: 5px;
+}
+}
+
+
+
+.lang{
+
+margin-inline-start: 30px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+&:hover{
+    span{
+        color: $main-color;
+    }
+   
+}
+img{
+    margin-inline-start: 5px;
+}
+
+
+}
+
+
+.account-user{
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+.account-text{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    .account-btn{
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+    i{
+        font-size: 20px;
+        color: #000;
+        margin-inline-end: 3px;
+    }
+    span{
+        font-size: 12px;
+        color: #000000;
+        font-weight: 600;
+    }
+   
+}
+}
+
+
+
+
+.lang-type{
+font-size: 14px;
+transition: all linear .2s;
+color: #999999;
+font-weight: 600;
+text-transform: capitalize;
+&:hover{
+text-decoration: none;
+color: #000;
+}
+&:focus{
+text-decoration: none;
+}
+}
+.arabic-text i{
+font-size: 8px;
+color: #808080;
+font-weight: 900;
+}
+.open-search-btn{
+transform: scaleX(-1);
+}
+
+
+
+.cart{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-inline-start: 23px;
+i{
+    transition: all linear .2s;
+}
+&:hover{
+    i{
+        color: $main-color;
+    }
+}
+}
+.cart > div {
+ position: relative;
+}
+.cart i{
+font-size: 20px;
+color: #000000;
+}
+.number{
+width: 12px;
+height: 12px;
+border-radius: 6px;
+background-color: #a63a50;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+font-size: 10px;
+font-weight: 600;
+position: absolute;
+top: -2px;
+left: 12px;
+}
+ .account-btn i  {
+transition: all linear .2s;
+}
+.account-btn-color {
+color: $main-color;
+}
+
+
+
+
+nav{
+background-color: $main-color;
+height: 45px;
+display: flex;
+align-items: center;
+// padding: 8px 0;
+.closeBtn{
+display: none;
+}
+}
+
+.ul-navbar{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+li:last-child{
+    margin: 0;
+}
+> li{
+    margin-inline-end: 25px;
+    .nav-ancor{
+        font-weight: 600;
+        font-size: 14px;
+        color: #fff;
+        text-transform: capitalize;
+        transition: all linear .2s;
+        &:hover{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+}
+
+
+
+
+.open-search {
+top: 0 !important;
+transition: all linear .3s !important;
+}
+
+
+
+
+
+.bars , .cart-icon{
+display: none;
+border: none;
+background: transparent;
+}
+
+
+nav{
+.top-header-text{
+display: none;
+}
+.top-header{
+display: none;
+}
+}
+.account-user button{
+background-color: transparent ;
+border: none ;
+padding: 0;
+}
+
+.open-nav{
+inset-inline-start: 0;
+transition: all linear .3s;
+}
+
+
+.account-text{
+    &:hover{
+        .account-details{
+            opacity: 1;
+            visibility: visible;
+        }
+        .account-btn i , .account-btn span {
+            color: $main-color;
+        }
+    }
+  }
+
+
+
+
+.nav-arrow-rotate::after {
+transform:  translateY(-50%) rotate(180deg)  !important;
+}
+
+
+
+@include max-1200{
+    .search-item{
+        width: 325px;
+        max-width: 100%;
+    }
+    }
+
+@include max-992 {
+    .account-details{
+        top: 30px;
+    }
+    .ul-navbar li .nav-ancor{
+        color: #000;
+        font-weight: 400;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    .mynav{
+        margin-top: 50px;
+    }
+    .english{
+        color: #808080;
+        font-weight: 400;
+    }
+    .li-drop .ul-drop li a:hover {
+        background-color: transparent;
+    }
+    .li-drop::after{
+        font-size: 16px;
+    }
+    .li-drop .ul-drop li{
+        padding-bottom: 0;
+    }
+    .li-drop .ul-drop::after{
+        display: none;
+    }
+    .li-drop {
+        flex-direction: column;
+        align-items: flex-start !important;
+        margin-inline-end: 0 !important;
+        padding: 0;
+        &:hover{
+            &::after{
+                color: #000;
+            }
+        }
+        a{
+            display: flex;
+            width: 100%;
+            color: #000;
+            justify-content: space-between;
+            &::after{
+                transition: all linear .3s;
+                // position: absolute;
+                inset-inline-end: 0;
+                // top: 50%;
+                // transform: translateY(-50%);
+                font-size: 16px;
+            }
+        }
+       .ul-drop{
+        transition: none;
+        background-color: transparent;
+        padding: 0;
+        min-width: auto;
+        width: 100%;
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        padding-top: 8px;
+        display: none;
+        box-shadow: none;
+        transform: none;
+            
+            li a {
+                color: #000;
+                font-weight: 400;
+                font-size: 15px;
+                text-align: start;
+                line-height: 2.35;
+            }
+        }
+    }
+    nav{
+        align-items: flex-start;
+    }
+
+    .main-nav .lang{
+        display: none;
+    }
+    
+    .cart  , .open-search-btn{
+        margin-inline-start: 20px;
+    }
+    .account-user .account-text{
+        padding: 0;
+    }
+    .search{
+        margin-top: 10px;
+    }
+    .account-text  .account-btn span{
+        display: none;
+       }
+    .search-item{
+        width: 100%;
+    }
+    .bars , .open-search-btn i , .account-user .account-text i , .cart i{
+        font-size: 24px;
+    }
+    .bars , .search-icon{
+        display: block;
+    }
+    .bars{
+        margin-inline-start: 20px;
+    }
+    .open-search-btn{
+        margin: 0;
+        display: none;
+        margin-inline-end: 20px;
+    }
+    .account-user{
+        margin-bottom: 0 !important;
+        display: flex;
+        align-items: center;
+        }
+.main-nav{
+    align-items: center;
+    flex-wrap: wrap;
+}
+    nav{
+        overflow-y: auto;
+        margin: 0;
+        transition: all linear .3s ;
+        z-index: 99;
+        position: fixed;
+        inset-inline-start: -100%;
+        padding: 24px 0;
+        width: 100% ;
+        height: 100% ;
+        top: 0;
+        background-color: #fff;
+        .closeBtn{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: none;
+          background: transparent;
+          font-size: 22px;
+          padding: 0;
+        }
+        
+        .ul-navbar{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .top-header{
+          display: block;
+          position: absolute;
+          inset-inline-start: 20px ;
+          border-bottom: none;
+         top: 20px;
+        }
+        }
+.account-user{
+    margin-bottom: 0;
+}  
+ .main-nav{
+.search{
+    order: 3;
+    width: 100%;
+}
+.logo{
+    order: 1;
+}
+.account-user{
+    order: 2;
+}
+}
+
+
+.account-text{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    }
+    .cart{
+    padding: 0;
+    }
+    
+    .account-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i{
+        display: block;
+        width: 100%;
+    }
+    }
+    .lang {
+        > a {
+            display: flex;
+            align-items: center;
+        }
+    }
+    .ul-navbar li .nav-ancor{
+        font-size: 16px;
+       
+    }
+    
+    .header-dropdown{
+        width: 115px;
+        padding: 8px 10px;
+    }
+
+    .ul-navbar li .nav-ancor{
+        color: #000;
+        font-weight: 700;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    .mynav{
+        margin-top: 50px;
+    }
+    .english{
+        color: #808080;
+        font-weight: 400;
+    }
+    .li-drop .ul-drop li a:hover {
+        background-color: transparent;
+    }
+    .li-drop::after{
+        font-size: 16px;
+    }
+    .li-drop .ul-drop li{
+        padding-bottom: 0;
+        margin-bottom: 0px;
+    }
+    .li-drop .ul-drop::after{
+        display: none;
+    }
+    
+    .ul-navbar > li{
+        margin-bottom: 20px;
+        margin-inline-end: 0;
+        width: 100%;
+        }
+        .lang-close-holder-mob{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .lang{
+            margin-inline-start: 0;
+        }
+
+        .icon-rotate::after{
+            transform:  rotate(180deg)  !important;
+        }
+       
+        .logo .baseera-logo{
+            height: 55px;
+        }
+        .account-user .account-text i{
+            margin-inline-end: 0;
+        }
+
+        
+.closeBtn i {
+    color: #808080;
+    }
+
+    
+}
+
+
+
+
+@include max-768 {
+   
+    .logo a:first-of-type{
+        margin-inline-end: 17px;
+    }
+    .main-nav{
+        padding: 7px 0;
+    }
+
+    .logo .moc-logo{
+        width: 85px;
+    }
+   
+
+header{
+    position: absolute;
+    z-index: 999;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    top: 0;
+}
+
+
+html[dir ="ltr"]{
+    .search-item input{
+        padding: 0 40px 0 15px;
+    }
+}
+
+
+.search-item input{
+    height: 40px;
+    width: 100%;
+    transition: all linear 0.3s;
+    max-width: 100%;
+    outline: none !important;
+    padding: 0 25px 0 70px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.acc-text{
+display: none;
+}
+
+.cart .shoppingText{
+display: none;
+}
+
+.account-user .account-text{
+margin-inline-end: 0;
+display: flex;
+align-items: center;
+}
+
+}
+
+
+
+  @include min-992 {
+    
+html[dir="ltr"]{
+    .li-drop .ul-drop a{
+        line-height: 1.3;
+    }
+}
+
+    .lang-close-holder-mob .lang{
+        display: none;
+       }
+       
+    .li-drop:hover > a{
+        color: #fff;
+    }
+    .search{
+        display: block !important;
+       }
+    .open-search-btn{
+        display: none;
+    }
+   
+  }
+
+@include min-768 {
+  
+.lang{
+    &:hover{
+        .arabic-text .lang-type , .arabic-text i{
+            color: $main-color;
+        }
+    }
+}
+.account-btn{
+    &:hover{
+        color: $main-color;
+    }
+}
+
+  
+}
+
+

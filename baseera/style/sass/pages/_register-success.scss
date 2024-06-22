@@ -1,0 +1,69 @@
+.register-success{
+    padding-bottom: 120px;
+}
+
+
+
+.register-success-details{
+    text-align: center;
+    i {
+        font-size: 72px;
+        color: #25d366;
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+    .success-text{
+        font-size: 18px;
+        color: #000000;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: 16px;
+        color: #000000;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    .backtohome{
+        width: 180px;
+        height: 45px;
+        border-radius: 5px;
+        background-color: #a63a50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        transition: all linear .2s;
+        &:hover{
+            background-color: $main-color;
+            color: #ffffff;
+        }
+    }
+
+}
+
+
+@include max-768 {
+    .register-success{
+        padding-top: 20px;
+        padding-bottom: 80px;
+    }
+    .register-success-details i{
+        margin-bottom: 15px;
+        font-size: 60px;
+    }
+    .register-success-details .success-text{
+        margin-bottom: 16px;
+    }
+    .register-success-details .backtohome{
+        width: 165px;
+        height: 44px;
+    }
+}

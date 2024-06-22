@@ -1,0 +1,154 @@
+//************************************************************************************************
+
+// Clients Section
+
+.clients{
+    padding:  0;
+    // height: 127px;
+    background-color: #271F1E;
+  
+    .js-marquee-wrapper {
+      width: 100% !important;
+      display: flex;
+      height: 100%;
+    }
+    .js-marquee {
+      display: flex;
+      column-gap: 40px;
+    }
+
+     .block-marquee {
+        overflow-x: hidden;
+        flex-direction: row;
+        justify-content: flex-start;
+        direction: ltr;
+        height: 100%;
+    }
+    .block-anchor{
+        width: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            max-width: 100%;
+            filter: brightness(0) invert(1);
+            max-height: 100%;
+            height: 90px;
+        }
+    }
+    .block-anchor:last-of-type{
+      margin-right: 30px;
+    }
+
+}
+
+.clients-parent{
+  display: flex;
+  max-width: 1582px;
+  margin-inline: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+  column-gap: 112px;
+  row-gap: 165px;
+}
+.page-clients-sec{
+  padding-top: 170px;
+  padding-bottom: 200px;
+  // background-color: #271F1E;
+}
+
+
+@include max-1700{
+  .clients-parent{
+    column-gap: 102px;
+    row-gap: 130px;
+    max-width: 100%;
+  }
+}
+
+@include max-1400{
+  .clients-parent{
+    column-gap: 115px;
+    // row-gap: 130px;
+  }
+}
+
+@include max-1200{
+  .clients-parent{
+    column-gap: 70px;
+    row-gap: 100px;
+  }
+}
+
+
+@include max-768 {
+
+  .clients .js-marquee{
+    column-gap: 30px;
+  }
+  .clients-parent{
+    column-gap: 25px;
+    row-gap: 40px;
+  }
+  .client-item{
+    width: calc( 100% / 3 - 17px); ;
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .page-clients-sec{
+    padding: 60px 0;
+  }
+}
+
+//************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+  width:100%;
+  height:100px;
+  position:relative;
+  margin:auto;
+  background:#ccc;
+  overflow:hidden;
+}
+
+
+
+.box{
+  width:100px;
+  height:100px;
+  // position:absolute;
+  background:red;
+  font-size:25px;
+  line-height:50px;
+  text-align:center;
+  color: var(--color-just-black);
+  img{
+    width: 100%;
+  }
+  
+}
+
+
+
+.boxes {
+  position:relative;
+  left:-50px;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+}

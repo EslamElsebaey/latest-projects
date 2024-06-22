@@ -1,0 +1,42 @@
+.old-programs , .young-programs{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+    margin-bottom: 70px;
+    .item-desc .prog-name{
+        margin-bottom: 10px;
+    }
+}
+
+.young-programs{
+    margin-bottom: 0;
+}
+
+
+@include max-1200{
+    .young-programs , .old-programs{
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 30px;
+    }
+}
+
+@include max-768 {
+    .young-programs , .old-programs {
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    .p4c-programs .explained-title{
+        margin-bottom: 20px;
+    }
+    .p4c-programs {
+        padding-top: 25px;
+    }
+    .p4c-programs  .title {
+        line-height: 2;
+    }
+    .old-programs .item-desc .prog-name, .young-programs .item-desc .prog-name{
+        -webkit-line-clamp : 1 ;
+        min-height : 28px ;
+        margin-bottom: 20px;
+    }
+}

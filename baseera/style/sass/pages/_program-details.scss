@@ -1,0 +1,206 @@
+.program-details {
+    padding-bottom: 80px;
+    .common-questions{
+        padding: 0;
+    }
+    .banner{
+        position: relative;
+        margin-bottom: 35px;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .title{
+        margin-bottom: 35px;
+    }
+}
+.program-details-parent{
+    .main-question{
+        padding: 25px 30px;
+      
+    }
+    .ques-answer{
+            i{
+                font-size: 24px;
+                line-height: 30px;
+                color: #a63a50;
+            }
+    }
+    .ques-answer > div {
+        display: flex;
+        align-items: flex-start;
+        p {
+            margin-inline-start: 13px;
+            text-align: justify;
+            text-align-last: start;
+            font-size: 16px;
+            line-height: 30px;
+            color: #000000;
+            font-weight: 400;
+            margin-bottom: 10px;
+            padding-inline-end: 60px;
+        }
+    }
+    
+}
+.program-details-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+.program-details-parent .common-questions{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+.lecturers-info{
+    margin-bottom: 35px;
+    .title{
+        font-size: 18px;
+        line-height: 1.7;
+        color: #000000;
+        font-weight: 700;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .lecturer-img-sec{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        .name{
+            font-size: 16px;
+            color: #000000;
+            font-weight: 400;
+            margin-inline-start: 15px;
+            text-transform: capitalize;
+        }
+    }
+}
+.level-details{
+    .register-now{
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #a63a50;
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all linear .2s;
+        &:hover{
+            background-color: $main-color;
+            color: #ffffff;
+        }
+    }
+    .person-details-item{
+        padding: 15px;
+        a{
+            text-decoration: underline;
+        }
+    }
+    .person-details{
+        margin-bottom: 30px;
+    }
+     .person-details-item h3{
+        font-weight: 400;
+    }
+    .person-details-item{
+        grid-template-columns : 145px 1fr
+    }
+   
+      
+    
+}
+.level-price-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    .price-now{
+        font-size: 24px;
+        line-height: 30px;
+        color: #a63a50;
+        font-weight: 700;
+    }
+    .deleted-price{
+        font-size: 24px;
+        line-height: 30px;
+        text-decoration: line-through;
+        color: #999999;
+        font-weight: 400;
+        margin-inline-start: 13px;
+    }
+   
+}
+
+
+@include max-992 {
+    .program-details-parent{
+        display: grid;
+        grid-template-columns:  1fr;
+        gap: 30px;
+    }
+    .program-details-parent .common-questions{
+        grid-column-start: unset;
+        grid-column-end: unset;
+    }
+    .level-details .register-now{
+        width: 360px;
+        margin: 0 auto;
+    }
+}
+
+@include max-768 {
+    .program-details .title{
+        margin-bottom: 20px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    html[dir="ltr"]{
+        .program-details .title{
+            line-height: 1.3;
+        }
+        .program-details-parent .ques-answer > div p{
+            line-height: 1.7;
+        }
+    }
+    .program-details{
+        padding-top: 25px;
+    }
+    .program-details-parent .ques-answer > div p{
+        line-height: 1.8;
+        padding-inline-end: 20px;
+        font-size: 15px;
+        margin-inline-start: 10px;
+    }
+    .level-details .person-details-item{
+        display: grid;
+    }
+    .level-details .register-now{
+        width: 100%;
+    }
+    .program-details-parent .main-question{
+        padding: 15px;
+    }
+    .level-details .register-now{
+        height: 50px;
+        font-size: 18px;
+    }
+    .level-price-sec .deleted-price , .level-price-sec .price-now{
+        font-size: 22px;
+    }
+    .lecturers-info{
+        margin-bottom: 30px;
+    }
+    .level-details .person-details , .level-price-sec{
+        margin-bottom: 25px;
+    }
+    .program-details{
+        padding-bottom: 80px;
+    }
+}

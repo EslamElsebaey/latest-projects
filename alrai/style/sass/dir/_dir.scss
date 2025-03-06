@@ -1,0 +1,38 @@
+html[dir="ltr"] {
+  .vision-item .text {
+    line-height: 25px;
+  }
+  .text-content .desc {
+    line-height: 28px;
+  }
+  .message .send .icon {
+    transform: rotate(180deg);
+  }
+  .stat-item .text {
+    line-height: 25px;
+  }
+  .year-item .year-desc {
+    line-height: 1.7;
+  }
+  .year-item {
+    min-height: 267px;
+    @include max-768 {
+      min-height: 237px;
+    }
+  }
+  .advantages-list li {
+    @include max-768 {
+      line-height: 1.6;
+    }
+  }
+  .distributors-table , .branches-table {
+    .table td:last-of-type {
+      text-align: start;
+    }
+  }
+  .product-wrapper .description-wrapper .desc-group .desc {
+    @include max-768 {
+      line-height: 1.7;
+    }
+  }
+}

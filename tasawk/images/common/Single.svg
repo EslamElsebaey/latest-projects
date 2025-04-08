@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Cubes/Single</title>
+    <g id="Brand/Illustrations/Cubes/Single" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="Icon" transform="translate(25.5901, 27.6463)">
+            <polygon id="Fill-11" fill="#7ACEF0" points="36.2737954 41.8827625 36.2737954 83.7678456 2.84217094e-14 62.8241437 2.84217094e-14 20.9437019"></polygon>
+            <polygon id="Fill-12" fill="#4C34BB" points="36.2737954 41.8827625 36.2737954 83.7678456 72.5475909 62.8264643 72.5499115 20.9437019"></polygon>
+            <polygon id="Fill-13" fill="#FFFFFF" points="36.2786688 1.42108547e-14 0.000232063178 20.9413812 36.2740275 41.8827625 72.5478229 20.9437019"></polygon>
+            <polygon id="Fill-14" fill="#24156D" points="36.2744916 83.7683097 72.5459664 104.70737 108.819762 83.7683097 72.5459664 62.8269285"></polygon>
+        </g>
+    </g>
+</svg>

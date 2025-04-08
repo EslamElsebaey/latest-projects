@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Eraser</title>
+    <g id="Brand/Illustrations/Eraser" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="icon" transform="translate(15.9153, 24.5)">
+            <polygon id="Fill-1" fill="#24156D" points="21.3613869 61.6647533 106.801195 111 128.169005 98.6658467 42.7209971 49.3319667"></polygon>
+            <polygon id="Fill-2" fill="#4C34BB" points="85.4406276 61.6672133 106.808438 98.66284 128.169415 86.33142 106.809805 49.33306"></polygon>
+            <polygon id="Fill-3" fill="#FFFFFF" points="106.809941 49.3327867 42.7229105 12.33306 21.3619336 24.6658467 85.4407643 61.66694"></polygon>
+            <polygon id="Fill-4" fill="#7ACEF0" points="0 12.3331967 21.3609769 49.3315567 106.807618 98.6627033 85.4411743 61.6670767 0.00136666519 12.33183"></polygon>
+            <polygon id="Fill-5" fill="#FFFFFF" points="21.3613869 0 0.00177666475 12.33142 85.4402176 61.6666667 106.809395 49.3325133"></polygon>
+        </g>
+    </g>
+</svg>

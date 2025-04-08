@@ -1,0 +1,311 @@
+.hidden-costs {
+    background-color: $secondary-color;
+    margin-top: 50px;
+  .hidden-costs-parent {
+  
+    padding: 96px 0;
+    .freq-headline {
+      color: $white-color;
+    }
+    .quote-sec {
+      width: 1037px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 56px;
+    }
+    .freq-desc,
+    .freq-span {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .quote-sec .quote-box-div {
+      height: 304px;
+      width: 765px;
+      background-color: $white-color;
+      padding-bottom: 52px;
+      padding-top: 52px;
+      padding-inline-start: 64px;
+      margin-inline-start: 45px;
+    }
+    .quote-sec .quote-box-div p {
+      width: 487px;
+      color: $text-color;
+      font-size: 24px;
+      line-height: 40px;
+    }
+    .quote-sec .employee-sec {
+      inset-inline-end: 18px;
+    }
+    .quote-sec .employee-sec .img-hold::before {
+      background-color: rgba(122, 206, 240, 0.6);
+      inset-inline-end: -20px;
+    }
+    .quote-sec .employee-sec .employee-role p,
+    .quote-sec .employee-sec .employee-role span {
+      color: $white-color;
+    }
+    .quote-sec .employee-sec .employee-role span {
+      margin-inline-start: 12px;
+    }
+    .quote-sec .employee-sec .employee-role {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 43px;
+      margin-inline-start: 115px;
+      line-height: 24px;
+    }
+    .quote-sec .employee-sec .img-hold::after {
+      inset-inline-start: -10px;
+    }
+  }
+}
+
+//******************************************************************************************
+
+.real-comp {
+  margin-top: 56px;
+}
+
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.components-list{
+    margin-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.components-list li {
+  width: calc(100% / 3 );
+    .checkmark{
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}
+.components-list li:last-of-type{
+  flex-grow: 1;
+}
+.components-list{
+.checkbox{
+    column-gap: 15px;
+h3 {
+  display: flex;
+  margin: 0;
+  font-weight: 400;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+}
+} 
+
+// .checkbox input:checked + .checkmark{
+//     background-color: rgba($color: #119B3D, $alpha: 0.8);
+//     // background-image: url(../../../../images/pages/ecommerce/packages-sec/Right-Check.svg);
+//     //     background-position: center;
+//     // background-size: cover;
+//     // background-color: var(--secondary-color);
+// }
+} 
+.real-comp-title {
+  text-align: start;
+  color: $white-color;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#eraser-overlay {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  z-index: 2;
+  aspect-ratio: 588 / 514;
+  width: 100%;
+  height: 90%;
+  cursor: url("../images/pages/ecommerce/hidden-costs/Eraser.svg"), auto;
+}
+
+.clear-overlay {
+  display: none;
+}
+//******************************************************************************************
+
+@include max-1200 {
+    .components-list li{
+      width: 50%;
+    }
+  .hidden-costs .hidden-costs-parent .quote-sec .quote-box-div {
+    margin-inline-start: 20px;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec {
+    width: 100%;
+  }
+  .hidden-costs
+    .hidden-costs-parent
+    .quote-sec
+    .employee-sec
+    .img-hold::before {
+    inset-inline-end: -35px;
+    bottom: -26px;
+  }
+}
+
+@include max-992 {
+      .components-list li{
+      width: 100%;
+    }
+  .eraser {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec {
+    margin-top: 120px;
+  }
+  .hidden-costs {
+    .quote-sec .quote-box-div .quote-sign,
+    .quote-sec .quote-box-div::after {
+      inset-inline-start: -18px;
+    }
+  }
+
+  .hidden-costs .hidden-costs-parent .quote-sec .quote-box-div {
+    height: auto;
+    width: 82%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-inline-start: 50px;
+    margin-inline-start: 0;
+  }
+
+  .hidden-costs .hidden-costs-parent .quote-sec .quote-box-div p {
+    width: 76%;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec .employee-sec {
+    inset-inline-end: 23px;
+    top: -52px;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec .employee-sec .img-hold::after {
+    inset-inline-start: 0px;
+    bottom: -18px;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec .employee-sec .employee-role {
+    margin-inline-start: 0;
+  }
+}
+
+@include max-768 {
+    .components-list{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        margin-top: 25px;
+    }
+    .components-list .checkbox h3{
+        font-size: 17px;
+    }
+    .components-list .checkbox{
+        column-gap: 12px;
+    }
+  .components-list li {
+    font-size: 15px;
+  }
+  .components-list {
+    padding: 0;
+  }
+  .components-list li .icon {
+    margin-inline-start: 15px;
+  }
+  .eraser {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+  }
+  .real-comp-title {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .eraser-container {
+    width: 100%;
+    margin-top: 35px;
+  }
+  .hidden-costs .hidden-costs-parent {
+    padding: 50px 0 70px 0;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec .quote-box-div {
+    width: 100%;
+    padding-top: 30px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    height: auto;
+    min-height: 325px;
+  }
+  .hidden-costs-parent .quote-sec .quote-box-div .quote-sign {
+    top: -35px;
+    inset-inline-start: -13px;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec {
+    margin-top: 70px;
+    margin-bottom: 0;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec .employee-sec {
+    width: calc(100% - 35px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    transform: unset;
+    left: unset;
+    inset-inline-start: 35px;
+    bottom: 2px;
+    top: unset;
+  }
+  .quote-sec .employee-sec .img-hold {
+    width: 120px;
+    height: auto;
+  }
+  .hidden-costs
+    .hidden-costs-parent
+    .quote-sec
+    .employee-sec
+    .img-hold::before {
+    bottom: -12px;
+    height: 20px;
+    inset-inline-start: 30px;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec .employee-sec .img-hold::after {
+    bottom: -5px;
+    height: 12px;
+    inset-inline-start: -20px;
+  }
+  .hidden-costs .hidden-costs-parent .quote-sec .employee-sec .employee-role {
+    margin-inline-start: 15px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    span {
+      margin-inline-start: 0;
+    }
+    p,
+    span {
+      color: $text-color;
+    }
+  }
+
+  .hidden-costs .hidden-costs-parent .quote-sec .quote-box-div p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .eye-btn {
+    bottom: 25px;
+  }
+}

@@ -1,0 +1,152 @@
+.software-dev-main {
+  .main-parent {
+    background-image: linear-gradient(32deg, #4c34bb 50%, #19bb58 85.45%, #4c34bb 85.45%, #19bb58 100%);
+  }
+}
+
+.software-dev-main {
+  .page-heading {
+    width: 791px;
+    margin: auto;
+  }
+}
+
+.software-dev-main,
+.mobile-apps-main  , .home-main{
+  .svgs-parent {
+    .svg-ruler {
+      position: absolute;
+      top: 29%;
+      inset-inline-start: 0%;
+      width: 200px;
+    }
+    .svg-search {
+      width: 270px;
+      bottom: 14%;
+      position: absolute;
+      inset-inline-end: 9%;
+    }
+    .svg-testing-step {
+      position: absolute;
+      width: 280px;
+      top: 379px;
+      inset-inline-end: 40px;
+    }
+    .svg-Website {
+      width: 650px;
+      position: absolute;
+      bottom: 16%;
+      inset-inline-start: -10%;
+    }
+    .svg-angle {
+      position: absolute;
+      top: 48%;
+      inset-inline-end: 25%;
+      width: 150px;
+    }
+    .svg-codeBricks {
+      position: absolute;
+      top: 54%;
+      inset-inline-end: 35%;
+      width: 300px;
+    }
+    .svg-complexcube {
+      position: absolute;
+      bottom: 5%;
+      width: 300px;
+      inset-inline-start: 7%;
+    }
+    .svg-codecube {
+      position: absolute;
+      bottom: 4%;
+      inset-inline-start: 33%;
+      width: 250px;
+    }
+  }
+}
+
+@include max-1200 {
+  .software-dev-main {
+    .topheader-cont .page-name {
+      font-size: 15px;
+    }
+  }
+  .software-dev-main,
+  .mobile-apps-main , .home-main {
+    .svgs-parent .svg-search {
+      bottom: 3%;
+      inset-inline-end: -1%;
+      width: 350px;
+    }
+    .svgs-parent .svg-codeBricks {
+      top: 51%;
+      inset-inline-end: 36%;
+      width: 250px;
+    }
+    .svgs-parent .svg-ruler {
+      top: 47%;
+    }
+    .svgs-parent .svg-Website {
+      width: 500px;
+      bottom: -5%;
+      inset-inline-start: -3%;
+    }
+    .svgs-parent .svg-codecube {
+      inset-inline-start: 38%;
+    }
+    .svgs-parent .svg-angle {
+      top: 55%;
+      inset-inline-end: 13%;
+    }
+  }
+}
+
+@include max-992 {
+  .software-dev-main .page-heading {
+    width: 100%;
+  }
+  .software-dev-main,
+  .mobile-apps-main  , .home-main{
+    .svgs-parent {
+      .svg-complexcube,
+      .svg-search,
+      .svg-codecube,
+      .svg-angle {
+        display: none;
+      }
+      .svg-codeBricks {
+        inset-inline-end: 10%;
+        top: unset;
+        bottom: 5%;
+      }
+    }
+  }
+}
+
+@include max-768 {
+
+  .software-dev-main,
+  .mobile-apps-main  , .home-main{
+    .svgs-parent {
+      .svg-ruler,
+      .svg-codeBricks,
+      .svg-testing-step {
+        display: none;
+      }
+      .svg-Website {
+        width: 320px;
+        bottom: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+        inset-inline-start: unset;
+      }
+    }
+  }
+  .mobile-apps-main .svgs-parent .svg-Website {
+        width:280px;
+  }
+
+  .software-dev-main .page-heading {
+    width: 100%;
+  }
+}

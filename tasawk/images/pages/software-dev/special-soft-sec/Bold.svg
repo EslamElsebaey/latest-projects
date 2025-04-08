@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Cubes/Bold</title>
+    <g id="Brand/Illustrations/Cubes/Bold" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brand/Illustrations/Extended-Cube">
+            <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+            <g id="Icon" transform="translate(15.914, 24.5)">
+                <polygon id="Fill-17" fill="#7ACEF0" points="32.0419345 55.5013325 32.0419345 92.4997608 0.000410000312 74.0005467 0.000410000312 37.0041683"></polygon>
+                <polygon id="Fill-18" fill="#4C34BB" points="32.0419345 55.5013325 32.0419345 92.4997608 96.1290836 55.5013325 96.1311336 18.5008542"></polygon>
+                <polygon id="Fill-19" fill="#FFFFFF" points="64.0891991 5.38947078e-13 96.1307236 18.5012642 32.0415245 55.5017425 2.91322745e-14 37.0025283"></polygon>
+                <polygon id="Fill-20" fill="#24156D" points="96.1284686 55.5003075 128.172043 73.9974717 64.0848941 111 32.0413195 92.5007858"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

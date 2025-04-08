@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Article</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI/Molecules/Blog/Resources-&amp;-Article/Snippet/Medium" transform="translate(-329, 0)">
+            <g id="Brand/Illustrations/Article" transform="translate(329, 0)">
+                <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+                <g id="icon" transform="translate(16, 38.5)">
+                    <polygon id="Fill-1" fill="#24156D" points="125.373526 32.194301 128.235214 33.7738784 55.0967028 76 52.2350139 74.4204226"></polygon>
+                    <polygon id="Fill-2" fill="#FFFFFF" points="73.1409181 0 0.00307492851 42.2254531 52.2447735 72.387828 125.383285 30.1617064"></polygon>
+                    <polygon id="Fill-3" fill="#4C34BB" points="125.380678 30.1641129 125.380678 32.2022557 52.2421665 74.4283773 52.2421665 72.3902345"></polygon>
+                    <polygon id="Fill-4" fill="#7ACEF0" points="0 44.2669383 52.2416985 74.4286447 52.2416985 72.3898334 0 42.2294639"></polygon>
+                    <path d="M34.1241529,35.1646819 L65.4697068,53.2613047 L61.0204189,55.830207 L29.674865,37.7335842 L34.1241529,35.1646819 Z M48.1285806,26.4890385 L79.4741345,44.5856613 L75.0248466,47.1545635 L43.6792927,29.0572723 L48.1285806,26.4890385 Z M60.9149355,19.118368 L92.2598209,37.2149908 L87.8112015,39.783893 L56.4656476,21.6872703 L60.9149355,19.118368 Z M73.1378432,12.0603376 L104.483397,30.1562919 L100.034109,32.7258626 L68.6885553,14.6285713 L73.1378432,12.0603376 Z" id="Combined-Shape" fill="#24156D"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

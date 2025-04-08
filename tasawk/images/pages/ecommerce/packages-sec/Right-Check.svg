@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Other/Right-Check</title>
+    <g id="Brand/Other/Right-Check" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill-opacity="0.4" fill="#119B3D" fill-rule="nonzero" cx="32" cy="32" r="32"></circle>
+        <g id="Icons/Close" transform="translate(14.75, 19.6189)" fill="#119B3D" fill-rule="nonzero">
+            <path d="M10.6506267,20.92547 L3.50559534,13.7804387 C2.70255148,12.9773948 1.40532677,12.9773948 0.602282901,13.7804387 C-0.200760967,14.5834825 -0.200760967,15.8807073 0.602282901,16.6837511 L9.20926589,25.2907341 C10.0123098,26.093778 11.3095345,26.093778 12.1125783,25.2907341 L33.8977171,3.50559534 C34.700761,2.70255148 34.700761,1.40532677 33.8977171,0.602282901 C33.0946732,-0.200760967 31.7974485,-0.200760967 30.9944047,0.602282901 L10.6506267,20.92547 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

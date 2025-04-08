@@ -1,0 +1,47 @@
+:root {
+  --px-base: 0.5rem;
+  //colors
+  --primary-color: #e14e1d;
+  --secondary-color: #4c34bb;
+  --third-color: #7acef0;
+  --heading-color: #24156d;
+  --text-color: #4938a1;
+  --background-color: #4938a1;
+
+  --bgdark-color: #eae7f9;
+  --bgmedium-color: #efedfa;
+  --bglight-color: #f3f2fb;
+
+  --white-color: #ffffff;
+  --grey-color: #807b9d;
+  --seance-color: #621e78;
+  --green-color: #22de76;
+  --yellow-color: #ffc914;
+  --red-color: #c61753;
+  --blue-color: #2191fb;
+
+  --primary-rgb: 225, 78, 29;
+  --secondary-rgb: 76, 52, 187;
+  --third-rgb: 122, 206, 240;
+  --heading-rgb: 36, 21, 109;
+  --text-rgb: 73, 56, 161;
+
+  --bgdark-rgb: 234, 231, 249;
+  --bgmedium-rgb: 239, 237, 250;
+  --bglight-rgb: 243, 242, 251;
+
+  --white-rgb: 255, 255, 255;
+  --grey-rgb: 128, 123, 157;
+  --seance-rgb: 98, 30, 120;
+  --green-rgb: 34, 222, 118;
+  --yellow-rgb: 255, 201, 20;
+  --red-rgb: 198, 23, 83;
+  --blue-rgb: 33, 145, 251;
+
+  // fonts
+  font-size: 16px;
+  --font-family: "NeoSans";
+  --font-size: 1rem;
+  --line-height: 1.5;
+  --heading-weight: 700;
+}

@@ -1,0 +1,143 @@
+// frequent
+.freq-span {
+    color: $text-color;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    margin-bottom: 24px;
+    display: block;
+  }
+  .freq-headline {
+    width: 589px;
+    color: $heading-color;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: start;
+    margin-bottom: 24px;
+  }
+  .freq-desc {
+    width: 589px;
+    color: $text-color;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 40px;
+    text-align: right;
+  }
+  .freq-item-title {
+    color: $heading-color;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: start;
+    margin-bottom: 10px;
+  }
+  .freq-quote-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .quote-box {
+    position: relative;
+    padding: 16px 24px 32px 24px;
+    background-color: rgba(234, 231, 249, 0.8);
+    text-align: start;
+    .svg {
+      display: block;
+      width: 72px;
+      height: 72px;
+    }
+    .blue-line {
+      position: absolute;
+      bottom: 0;
+      inset-inline-start: 0;
+      height: 8px;
+      width: 160.53px;
+      background-color: $third-color;
+      &::before {
+        position: absolute;
+        content: "";
+        height: 4px;
+        width: 160.53px;
+        background-color: $secondary-color;
+        bottom: 0;
+        inset-inline-start: 100%;
+      }
+    }
+  }
+  .qoute-text {
+    width: 337px;
+    color: $text-color;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    margin-bottom: 16px;
+  }
+  .qoute-author {
+    color: $text-color;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: start;
+  }
+  
+  @include max-992 {
+    .quote-box {
+      margin-inline-start: auto;
+      margin-top: 40px;
+    }
+    .freq-item-title {
+      font-size: 22px;
+    }
+    .freq-headline {
+      font-size: 28px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    .freq-desc {
+      line-height: 1.5;
+      font-size: 22px;
+    }
+  }
+  
+  @include max-768 {
+    .quote-box {
+      margin-inline-start: unset;
+      margin: 40px auto 0 auto;
+      width: 100%;
+      padding: 15px 15px 30px 15px;
+    }
+    .quote-box .blue-line,
+    .quote-box .blue-line::before {
+      width: 140px;
+    }
+    .qoute-text {
+      width: 100%;
+    }
+    .freq-item-title {
+      text-align: center;
+      width: 100%;
+      font-size: 17px !important;
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+    .freq-desc {
+      font-size: 16px;
+      text-align: center;
+    }
+    .freq-headline {
+      font-size: 18px;
+      text-align: center;
+      width: 100%;
+      line-height: 1.7;
+    }
+    .freq-span {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  
+    .freq-desc {
+      width: 100%;
+      line-height: 1.6;
+    }
+  }

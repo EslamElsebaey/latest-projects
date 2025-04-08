@@ -1,0 +1,25 @@
+.mobile-apps-main {
+  .main-parent {
+    // background-image: $basic-green;
+    background-image:  linear-gradient(32deg, #4C34BB 0%, #1FB2CA 85.45%, #4C34BB 85.45%, #1FB2CA 100%) ;
+    // background-image: linear-gradient(32deg, #4C34BB 0%, #1FB2CA 59%, #4C34BB 59%, #1FB2CA 100%);
+  }
+  .page-heading{
+    width: 791px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-desc{
+    width: 776px;
+}
+}
+
+@include max-992 {
+  .mobile-apps-main .page-heading{
+    width: 100%;
+  }
+  .mobile-apps-main .page-desc{
+    width: 100%;
+  }
+}
+

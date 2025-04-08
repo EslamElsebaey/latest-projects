@@ -1,0 +1,215 @@
+.special-articles{
+    padding: 96px 0 ;
+    background-color: rgba(243,242,251,0.8);
+}
+
+.stages-parent{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    column-gap: 0;
+}
+
+.more-articles-btn{
+    display: inline-block;
+    border-radius: 8px;
+    background-color: $text-color;
+    color: $white-color;
+    font-size: 12px;
+    text-align: center;
+    padding: 11px 16px;
+    transition: ease-in-out all .2s;
+    &:hover{
+        background-color: $third-color;
+        color: $text-color;
+    }
+}
+.stage-item{
+    align-self: flex-end;
+.stage-num{
+    color: $heading-color;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    margin-inline-end: 18px;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -27px;
+        height: 4px;
+        width: 10px;
+        background-color: $heading-color;
+    }
+}
+
+
+
+.num-text-holder{
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    a{
+        width: 486px;
+        color: $heading-color;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        display: block;
+        transition: color ease-in-out .2s;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+    p{
+        width: 486px;
+        color: rgba(73,56,161,0.8);
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+.num-text-holder:last-of-type{
+    .stage-num::after{
+        display: none;
+    }
+}
+}
+
+.stage-item-img{
+    height: 672px;
+    width: 588px;
+    background-color: $white-color;
+    position: relative;
+    .holder{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        top: 50%;
+        width: 100%;
+        height: 100%;
+        .img{
+            width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+
+.white-special-articles{
+    background-color: $white-color;
+    .stage-item-img{
+        background-color: rgba(243,242,251,0.8);
+    }
+}
+
+@include max-1300{
+    .stage-item-img{
+        height: 600px;
+        width: 500px;
+    }
+    .stage-item .num-text-holder p{
+        width: 100%;
+    }
+    .stages-parent{
+        column-gap: 20px;
+    }
+    .stage-item-img .holder{
+        height: 600px;
+        width: 600px;
+        inset-inline-end: -100px;
+    }
+}
+
+@include max-1200{
+    .stage-item , .stage-item .num-text-holder a{
+        width: 100%;
+    }
+    .stage-item .num-text-holder , .stage-item-img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .stage-item-img .holder{
+        width: 500px;
+        height: 500px;
+    }
+    .stage-item-img{
+        height: 500px;
+    }
+}
+
+@include max-992 {
+    .stage-item .stage-num::after{
+        bottom: -10px;
+    }
+    .stages-parent{
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+    .special-articles{
+        .freq-span{
+            text-align: center;
+        }
+    }
+    .more-articles-div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .stage-item-img{
+        width: 600px;
+        margin: auto;
+    }
+    .stage-item-img .holder{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+}
+
+@include max-768 {
+    .special-articles{
+        padding: 50px 0 ;
+    }
+    .stage-item-img{
+        width: 100%;
+        margin: unset;
+    }
+    .stage-item .num-text-holder a , .stage-item .num-text-holder p{
+        line-height: 1.7;
+    }
+    .stage-item .num-text-holder a{
+        margin-bottom: 12px;
+    }
+    .stage-item .num-text-holder {
+        align-items: flex-start;
+        margin-bottom: 35px;
+    }
+    .stage-item .stage-num{
+        font-size: 25px;
+        line-height: normal;
+    }
+    .stage-item .stage-num::after{
+        bottom: -15px;
+    }
+    .stage-item .stage-num{
+        margin-inline-end: 14px;
+    }
+    .stage-item{
+        align-self: unset;
+    }
+    .stage-item-img{
+        height: 300px;
+    }
+    .stage-item-img .holder{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+   
+    .more-articles-div{
+        margin-top: 40px;
+    }
+}

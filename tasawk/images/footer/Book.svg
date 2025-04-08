@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Book</title>
+    <g id="Brand/Illustrations/Book" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="icon" transform="translate(46.7833, 16.0481)">
+            <polyline id="Fill-2" fill="#4C34BB" points="60.5116796 5.82269794 10.0855488 34.9361877 10.086194 116.452797 60.5110344 87.3418887"></polyline>
+            <polygon id="Fill-3" fill="#4C34BB" points="50.4263889 3.55271368e-15 0.000258092593 29.1134897 10.0852262 34.9360586 60.511357 5.8225689"></polygon>
+            <polygon id="Fill-4" fill="#24156D" points="10.0857423 116.452927 30.254388 128.1 80.6798736 98.9890912 60.5112279 87.3420177"></polygon>
+            <polygon id="Fill-5" fill="#4C34BB" points="-7.10542736e-15 29.1132316 3.80686575 31.3089544 3.80686575 26.9155732"></polygon>
+            <polygon id="Fill-6" fill="#FFFFFF" fill-rule="nonzero" points="1.8901411 30.2047697 10.0852262 34.9362522 60.5120022 5.82276247 52.3156267 1.09063477"></polygon>
+            <polygon id="Fill-7" fill="#7ACEF0" points="50.4261953 11.6455249 50.4294215 34.9364458 45.3850018 30.7359888 40.3418725 40.7583694 40.3399368 17.4680938"></polygon>
+            <polygon id="Fill-8" fill="#7ACEF0" points="50.4261953 11.6455249 47.5355583 9.97631109 37.3918742 15.7653279 40.3399368 17.4680938"></polygon>
+            <path d="M50.4236144,65.9709832 L50.4236144,69.8752789 L20.1700007,87.3416951 L20.168065,83.4393351 L50.4236144,65.9709832 Z M50.4236144,46.5806157 L50.4236144,58.2283344 L20.1700007,75.6941054 L20.168065,64.0489676 L50.4236144,46.5806157 Z" id="Combined-Shape" fill-opacity="0.4" fill="#24156D"></path>
+            <polygon id="background" fill="#7ACEF0" points="0.000580708334 110.630745 10.0855488 116.452668 10.0849035 34.9360586 0.00445209723 29.1167159"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,81 @@
+
+.expertise-fields{
+    background-color: rgba(234,231,249,0.6);
+}
+.expertise-fields-parent{
+    padding: 96px 0 ;
+    .myitems{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        column-gap: 22px;
+        row-gap: 40px;
+    }
+    .general-item{
+        width: 385px;
+        margin-inline-end: 0;
+    }
+}
+
+.num-line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    .num{
+        margin-inline-start: 15px;
+        color: $secondary-color;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .blue-line{
+        width: 41px;
+        margin: 0;
+    }
+}
+
+@include max-1200 {
+    .expertise-fields-parent{
+        .freq-headline{
+            width: 589px;
+        }
+    }
+    .expertise-fields{
+        .general-item{
+            width: 100%;
+        }
+    }
+    
+}
+
+@include max-992 {
+    .expertise-fields-parent .myitems{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .expertise-fields{
+        .general-item:last-of-type{
+            margin-top: 0;
+        }
+    }
+}
+
+@include max-768 {
+    .expertise-fields-parent .myitems{
+        grid-template-columns:  1fr;
+        row-gap: 30px;
+    }
+    .expertise-fields-parent .freq-headline{
+        width: 100%;
+    }
+    .expertise-fields-parent{
+        padding: 50px 0 ;
+    }
+    .num-line{
+        margin-bottom: 5px;
+    }
+    .expertise-fields .general-item{
+        margin-inline-end: 0;
+        margin-bottom: 0;
+    }
+    .num-line .num{
+        font-size: 22px;
+    }
+}

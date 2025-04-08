@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 128.3 84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7acef0;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #24156d;
+      }
+
+      .cls-3 {
+        fill: #4c34bb;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="icon">
+    <path id="Fill_1" data-name="Fill 1" class="cls-3" d="M77,79.1l42.8-24.7v-9.9l-42.8,24.7v9.9Z"/>
+    <path id="Fill_2" data-name="Fill 2" class="cls-2" d="M77,79.1l8.6,4.9,42.8-24.7-8.6-4.9-42.8,24.7Z"/>
+    <path id="Fill_3" data-name="Fill 3" class="cls-1" d="M0,34.6l77,44.5v-9.9L0,24.7v9.9Z"/>
+    <path id="Fill_4" data-name="Fill 4" class="cls-4" d="M42.7,0L0,24.7l77,44.5,42.8-24.7L42.7,0Z"/>
+    <g id="Group_11" data-name="Group 11">
+      <path id="Fill_5" data-name="Fill 5" class="cls-3" d="M84.1,51.9c0,2.1,2.5,3.7,5.7,3.7s5.7-1.7,5.7-3.7-2.5-3.7-5.7-3.7-5.7,1.7-5.7,3.7"/>
+      <path id="Fill_7" data-name="Fill 7" class="cls-3" d="M31.8,10h0c.4.2.6.8.3,1.2,0,.1-.2.2-.3.3l-11.5,6.6c-.3.2-.6.2-.9,0h0c-.4-.2-.6-.8-.3-1.2,0-.1.2-.2.3-.3l11.5-6.6c.3-.2.6-.2.9,0"/>
+      <path id="Fill_9" data-name="Fill 9" class="cls-3" d="M17.1,24.7l51.4,29.6,25.7-14.8L42.7,9.9l-25.7,14.8Z"/>
+    </g>
+  </g>
+</svg>

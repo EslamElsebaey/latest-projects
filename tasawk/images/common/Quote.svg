@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Quote</title>
+    <g id="Brand/Illustrations/Quote" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="icon" transform="translate(27.9824, 21)">
+            <g id="leftt_quote" transform="translate(-0, -0)">
+                <path d="M60.188642,14.889875 L60.188642,54.6049732 L60.1874485,54.605875 L60.1883119,94.3167709 L42.9929402,104.244858 L42.9929402,94.3167709 L51.590351,89.3532775 L51.5894485,59.569875 L25.7984485,74.4611471 L25.7984485,34.7454988 L60.188642,14.889875 Z" id="Combined-Shape" fill="#4C34BB"></path>
+                <polygon id="Fill-3" fill="#7ACEF0" points="17.1978472 89.3527824 42.9928301 104.247663 42.9928301 94.3190262 17.1978472 79.4246955"></polygon>
+                <polygon id="Fill-4" fill="#FFFFFF" points="25.795478 74.4612021 17.1980672 79.4246955 42.9941504 94.3168259 51.5921113 89.3527824"></polygon>
+                <polygon id="Fill-5" fill="#7ACEF0" points="51.590241 89.3529474 25.7985586 74.4613671 42.9939303 64.53218 51.590241 59.5686866"></polygon>
+                <polygon id="Fill-6" fill="#7ACEF0" points="0.00110018694 59.5690167 25.7982835 74.4611471 25.7982835 34.7454988 0.00110018694 19.8561189"></polygon>
+                <polygon id="Fill-7" fill="#FFFFFF" points="34.3945942 0 0 19.8556238 25.7982835 34.7455538 60.1884769 14.88993"></polygon>
+            </g>
+            <g id="right_quote" transform="translate(43.0085, 13.7523)">
+                <path d="M61.0268254,14.889875 L61.0268254,54.6049732 L61.025632,54.605875 L61.0264954,94.3167709 L43.8311236,104.244858 L43.8311236,94.3167709 L52.4285345,89.3532775 L52.427632,59.569875 L26.636632,74.4611471 L26.636632,34.7454988 L61.0268254,14.889875 Z" id="Combined-Shape" fill="#4C34BB"></path>
+                <polygon id="Path" fill="#24156D" points="61.0288033 94.2915951 75.7878033 102.820595 58.6541671 112.713658 43.8888033 104.186422"></polygon>
+                <polygon id="Path-Copy" fill="#24156D" points="17.14 80.4856664 25.4290224 85.0239978 8.29538629 94.9170609 0 90.3804933"></polygon>
+                <polygon id="Fill-3" fill="#7ACEF0" points="18.0360306 89.3527824 43.8310136 104.247663 43.8310136 94.3190262 18.0360306 79.4246955"></polygon>
+                <polygon id="Fill-4" fill="#FFFFFF" points="26.6336615 74.4612021 18.0362507 79.4246955 43.8323338 94.3168259 52.4302948 89.3527824"></polygon>
+                <polygon id="Fill-5" fill="#7ACEF0" points="52.4284244 89.3529474 26.636742 74.4613671 43.8321138 64.53218 52.4284244 59.5686866"></polygon>
+                <polygon id="Fill-6" fill="#7ACEF0" points="0.839283656 59.5690167 26.636467 74.4611471 26.636467 34.7454988 0.839283656 19.8561189"></polygon>
+                <polygon id="Fill-7" fill="#FFFFFF" points="35.2327776 7.10542736e-15 0.838183469 19.8556238 26.636467 34.7455538 61.0266604 14.88993"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Big-Box</title>
+    <g id="Brand/Illustrations/Big-Box" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="LoveBoxes" transform="translate(15.7718, 26)">
+            <polygon id="Fill-1" fill="#4C34BB" points="52.4819342 87.5330772 104.96454 57.2343755 104.96454 30.2993359 52.4819342 60.5976645"></polygon>
+            <polygon id="Fill-2" fill="#24156D" points="52.482755 87.5330398 75.8082746 101 128.228203 70.7001791 104.902684 57.2332189"></polygon>
+            <polygon id="Fill-3" fill="#7ACEF0" points="0 57.2328832 52.4822327 87.5330772 52.4822327 60.5976645 0.000373076991 30.2993359"></polygon>
+            <polygon id="Fill-4" fill="#FFFFFF" points="52.4790615 0 0.000186538496 30.2994478 52.4857769 60.5992688 104.964652 30.2994478"></polygon>
+        </g>
+    </g>
+</svg>

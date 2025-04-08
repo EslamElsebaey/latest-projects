@@ -1,0 +1,409 @@
+.soft-execution-steps{
+    padding: 96px 0 ;
+    .imgs-box{
+        position: relative;
+        width: 100%;
+        .svg{
+            width: 250px;
+            // height: 250px;
+        }
+        .documenting-svg{
+            width: 250px;
+            position: absolute;
+            top: 0px;
+            inset-inline-start: 100px;
+        }
+        .testing-svg{
+            position: absolute;
+            top: 110px;
+            inset-inline-start: 232px;
+        }
+    }
+}
+
+.execution-steps-cont{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .step-item:nth-of-type(2){
+        margin-top: 56px;
+    }
+    .step-item:nth-of-type(3){
+        margin-top: 112px;
+    }
+    .step-item:nth-of-type(4){
+        margin-top: 168px;
+    }
+    .step-item{
+        .heading{
+            width: 298.46px;
+            background-color: rgba(234,231,249,0.8);
+            color: $text-color;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 16px 0 ;
+            padding-inline-start: 33px;
+        }
+        .desc{
+            width: 236px;
+            color: rgba(73,56,161,0.8);
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 16px;
+            margin-inline-start: 33px;
+            a{
+                color: $primary-color;
+            }
+        }
+        .stage-activ{
+            margin-top: 56px;
+            margin-inline-start: 33px;
+            .stage-activ-title{
+                width: 182px;
+                color: $text-color;
+                font-size: 12px;
+                font-weight: 700;
+                margin-bottom: 16px;
+            }
+            .list{
+                li{
+                    color: rgba(73,56,161,0.8);
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}
+
+.quote-sec{
+    .quote-parent{
+        position: relative;
+        display: flex;
+        width: 1037px;
+        height: 546px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    margin-top: 180px;
+    .quote-box-div{
+        position: relative;
+        align-self: center;
+        margin-inline-start: 45px;
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: -8px;
+            inset-inline-start: -20px;
+            height: 16px;
+            width: 124px;
+            background-color: $third-color;
+        }
+        .quote-sign{
+            width: 120px;
+            // height: 120px;
+            top: -60px;
+            position: absolute;
+            inset-inline-start: -40px;
+        }
+        height: 304px;
+        width: 749px;
+        background-color: rgba(234,231,249,0.6);
+        padding-bottom: 92px;
+        padding-top: 52px;
+        padding-inline-start: 64px;
+        p{
+            width: 487px;
+            color: $text-color;
+            font-size: 24px;
+            line-height: 40px;
+        }
+    }
+    .employee-sec{
+        position: absolute;
+        top: 0;
+        inset-inline-end: 0;
+        .img-hold{
+            width: 385px;
+            height: 470px;
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                height: 24px;
+                width: 265px;
+                background-color: $third-color;
+                bottom: -16px;
+                inset-inline-start: 0;
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                height: 32px;
+                width: 265px;
+                background-color: $secondary-color;
+                bottom: -32px;
+                inset-inline-end: 0;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .employee-role{
+            margin-top: 30px;
+            p{
+                color: $text-color;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: right;
+            }
+            span{
+                color: $text-color;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+
+@include max-1200{
+    .soft-execution-steps .imgs-box .documenting-svg{
+        top: 0px;
+        inset-inline-start: 0;
+    }
+    .soft-execution-steps .imgs-box .svg{
+        width: 200px;
+        // height: 200px;
+    }
+    .soft-execution-steps .imgs-box .testing-svg{
+        top: 75px;
+        inset-inline-start: 120px;
+    }
+    .execution-steps-cont{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    .execution-steps-cont .step-item:nth-of-type(4){
+        margin-top: 30px;
+    }
+    .execution-steps-cont .step-item .heading{
+        width: 100%;
+    }
+    .quote-sec{
+        margin-top: 80px;
+    }
+    .quote-sec .quote-parent{
+        width: 100%;
+    }
+    .quote-sec .employee-sec .img-hold{
+        width: 300px;
+        height: auto;
+        img{
+            object-fit: cover;
+        }
+    }
+    .quote-sec .employee-sec{
+        top: 80px;
+    }
+   
+}
+
+@include max-992 {
+    .soft-execution-steps{
+        .freq-quote-parent{
+            margin-bottom: 0;
+        }
+    }
+    .quote-sec .employee-sec .img-hold{
+        width: 220px;
+    }
+    .quote-sec .employee-sec .img-hold::after , .quote-sec .employee-sec .img-hold::before{
+        width: 75%;
+    }
+    .quote-sec .quote-box-div {
+        height: auto;
+        width: 86%;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-inline-start: 50px;
+        margin-inline-start: 0;
+    }
+    .quote-sec .employee-sec{
+        top: -61px;
+    }
+    .quote-sec .quote-parent{
+        height: auto;
+    }
+    .quote-sec .employee-sec .employee-role{
+        margin-top: 35px;
+    margin-inline-start: -20px;
+    }
+    .quote-sec{
+        margin-bottom: 50px;
+    }
+    .quote-sec .quote-box-div .quote-sign {
+        width: 100px;
+        // height: 100px;
+        top: -50px;
+        inset-inline-start: -17px;
+    }
+    .quote-sec .employee-sec .img-hold::after{
+        inset-inline-start: -20px;
+    }
+    .quote-sec .quote-box-div p {
+        width: 400px;
+        font-size: 22px;
+        line-height: 1.7;
+    }
+    .execution-steps-cont{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .execution-steps-cont .step-item:nth-of-type(3){
+        margin-top: 30px;
+    }
+    .execution-steps-cont .step-item:nth-of-type(4){
+        margin-top: 86px;
+    }
+    .soft-execution-steps .imgs-box{
+        height: 250px;
+    }
+    .execution-steps-cont {
+        .list{
+            margin-left: unset;
+            margin-right: unset;
+            width: auto;
+        }
+    }
+    .img-box-cont{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 400px;
+        height: 100%;
+    }
+    .soft-execution-steps .imgs-box .svg{
+        width: 150px;
+        height: 150px;
+    }
+    .img-box-cont{
+        width: 100%;
+    }
+    .soft-execution-steps .imgs-box .documenting-svg{
+        inset-inline-start: 40px;
+    }
+    .soft-execution-steps .imgs-box .testing-svg{
+        top: 58px;
+        inset-inline-start: 134px;
+    }
+   
+}
+
+
+@include max-768 {
+
+    .quote-sec .quote-box-div{
+        width: 100%;
+        height: 340px;
+    }
+    .quote-sec .quote-box-div .quote-sign{
+        width: 70px;
+        left: unset;
+        top: -35px;
+        inset-inline-start: -11px;
+        transform: unset;
+    }
+    .quote-sec .employee-sec .img-hold img{
+        height: 120px;
+        object-position: top;
+       
+
+    }
+    .quote-sec .quote-box-div {
+      width: 100%;
+        padding-top: 30px;
+        padding-inline-start: 15px;
+        padding-inline-end: 15px;
+    }
+    .quote-sec .quote-box-div p{
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .quote-sec .employee-sec .employee-role {
+        margin-inline-start: 20px;
+        margin-top: 0;
+    }
+    .quote-sec .employee-sec{
+        width: calc(100% - 35px);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        transform: unset;
+        left: unset;
+        inset-inline-start: 35px;
+        bottom: 2px;
+        top: unset;
+    }
+    .quote-sec .employee-sec .img-hold{
+        width: 120px;
+        height: auto;
+    }
+    .quote-sec .employee-sec .img-hold::after{
+        bottom: -5px;
+        height: 12px;
+    }
+    .quote-sec .quote-box-div::after{
+       display: none;
+    }
+    .quote-sec .employee-sec .img-hold::before{
+        bottom: -13px;
+        height: 20px;
+    }
+    .execution-steps-cont{
+        grid-template-columns: 1fr;
+    }
+    .execution-steps-cont .step-item .desc{
+        margin-inline-start: 12px;
+        width: 90%;
+    }
+    .execution-steps-cont .step-item .heading{
+        padding: 12px 0;
+        padding-inline-start: 12px;
+        
+    }
+    .execution-steps-cont .step-item .stage-activ{
+        margin-top: 30px;
+        margin-inline-start: 12px;
+    }
+    .execution-steps-cont .step-item:nth-of-type(4) , .execution-steps-cont .step-item:nth-of-type(2) {
+        margin-top: 30px;
+    }
+    .soft-execution-steps .imgs-box{
+        height: 200px;
+    }
+    .freq-quote-parent{
+        margin-bottom: 30px;
+    }
+    .soft-execution-steps{
+        padding: 50px 0 ;
+    }
+    .quote-sec{
+        margin-top: 55px;
+        margin-bottom: 0;
+    }
+    .expertise-fields{
+        padding: 0;
+        padding-top: 20px;
+    }
+    .soft-execution-steps{
+        .quote-sec .quote-box-div{
+            height: auto;
+            min-height: 280px;
+        }
+    }
+}

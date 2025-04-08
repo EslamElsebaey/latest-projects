@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Line-Foundation" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 235.2 168.8">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: .2;
+      }
+
+      .cls-2 {
+        fill: #7acef0;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #24156d;
+      }
+
+      .cls-4 {
+        fill: #4c34bb;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Icon">
+    <path id="Fill_1" data-name="Fill 1" class="cls-2" d="M74.1,89.6v24.6l-21.3-12.3v-24.6l21.3,12.3Z"/>
+    <path id="Fill_2" data-name="Fill 2" class="cls-4" d="M74.1,89.6v24.6l85.3-49.2v-24.6l-85.3,49.2Z"/>
+    <path id="Fill_3" data-name="Fill 3" class="cls-5" d="M138.1,28l21.3,12.3-85.3,49.2-21.3-12.3,85.3-49.3Z"/>
+    <path id="Fill_4" data-name="Fill 4" class="cls-3" d="M159.4,65l21.3,12.3-85.3,49.2-21.3-12.3,85.3-49.2Z"/>
+  </g>
+  <g id="Group_24" data-name="Group 24" class="cls-1">
+    <path id="Fill_1-2" data-name="Fill 1" class="cls-5" d="M90.2,149h0l-29.1-16.8h0s-27.4-15.8-27.4-15.8v-31.8L147.4,18.9l26.8,15.5,1.8,1.1v29.9l29.6,17.1-115.4,66.6h0ZM175.1,66.9l-111.7,64.5,26.8,15.5,111.7-64.5-26.8-15.5ZM174.2,36.5L62.3,101v28.8l111.8-64.6v-28.8ZM35.6,86.5v28.8l25,14.4v-28.8l-25-14.4ZM147.4,21h0l-110.8,64,24.9,14.4,110.8-64-24.9-14.4Z"/>
+    <path id="Fill_2-2" data-name="Fill 2" class="cls-5" d="M102.7,123.2l-12.6-7.3-1.8,1.1,13.5,7.8.9-1.6Z"/>
+    <path id="Fill_3-2" data-name="Fill 3" class="cls-5" d="M88.3,114.8l-24.9-14.4-1,.6v.9l24.1,13.9,1.8-1.1Z"/>
+    <path id="Fill_4-2" data-name="Fill 4" class="cls-5" d="M58.9,100l1.6.9h0s-1.6-.9-1.6-.9h0Z"/>
+    <path id="Fill_5" data-name="Fill 5" class="cls-5" d="M170.3,69.7h0l4.9-2.8h0s-4.8,2.8-4.8,2.8Z"/>
+    <path id="Fill_6" data-name="Fill 6" class="cls-5" d="M172.8,37.3h0l1.4-.8h0s-1.4.8-1.4.8Z"/>
+    <path id="Fill_7" data-name="Fill 7" class="cls-5" d="M92,147.9l1.9-1.1h0s-1.9,1.1-1.9,1.1Z"/>
+    <path id="Fill_8" data-name="Fill 8" class="cls-5" d="M90.2,146.8l-7.5-4.4h0s7.5,4.4,7.5,4.4l1.3-.7-1.3.7Z"/>
+    <path id="Fill_9" data-name="Fill 9" class="cls-5" d="M191.3,76.3l10.5,6.1h0s-10.5-6.1-10.5-6.1h0Z"/>
+    <path id="Fill_10" data-name="Fill 10" class="cls-5" d="M172.4,33.3h0l1.8,1,1.8,1.1v2.1l12.3,7.1.9-1.6-13.2-7.6,32.3-18.4-.9-1.6-33.3,19-1.8-1Z"/>
+    <path id="Fill_11" data-name="Fill 11" class="cls-5" d="M147.4,21l2.1,1.2h0s-2.1-1.2-2.1-1.2h0Z"/>
+    <path id="Fill_12" data-name="Fill 12" class="cls-5" d="M35.6,86.5l7.8,4.5h0s-7.8-4.5-7.8-4.5h0Z"/>
+    <path id="Fill_13" data-name="Fill 13" class="cls-5" d="M57.5,165.5l.9,1.6,31.8-18.1-1.8-1.1-30.8,17.6Z"/>
+    <path id="Fill_14" data-name="Fill 14" class="cls-5" d="M61.1,132.2h0s-1.4-.8-1.4-.8l-30.8,17.6.9,1.6,31.7-18.1-.4-.2Z"/>
+    <path id="Fill_15" data-name="Fill 15" class="cls-5" d="M90.2,149l34.4,19.9.9-1.6-33.5-19.4-1.8,1.1Z"/>
+    <path id="Fill_16" data-name="Fill 16" class="cls-5" d="M2,133.3l.9,1.6,31.7-18-.9-.5v-1.1l-31.7,18.1Z"/>
+    <path id="Fill_17" data-name="Fill 17" class="cls-5" d="M203.8,81.3l1.8,1-8.2,4.7h0s6.4-3.7,6.4-3.7l30.5,17.6.9-1.6-29.6-17.1,27.3-15.6-.9-1.6-28.2,16.1Z"/>
+    <path id="Fill_18" data-name="Fill 18" class="cls-5" d="M204.9,47.8l-28.9,16.5v1l1,.6,28.9-16.5-.9-1.6Z"/>
+    <path id="Fill_19" data-name="Fill 19" class="cls-5" d="M64.3,130.8l1.1-.6h0l-1.1.6Z"/>
+    <path id="Fill_20" data-name="Fill 20" class="cls-5" d="M62.3,129.8h0s1.3-.7,1.3-.7l-1.3.7Z"/>
+    <path id="Fill_21" data-name="Fill 21" class="cls-5" d="M.4,66.2l32.4,18.7L2,102.5l.9,1.6,30.8-17.5v-2.1l3.9-2.2h0l-2.9,1.6L1.4,64.6l-.9,1.6Z"/>
+    <path id="Fill_22" data-name="Fill 22" class="cls-5" d="M145,20.3h0s2.4-1.4,2.4-1.4l-13.8-8-.9,1.6,12.9,7.4-.5.3Z"/>
+    <path id="Fill_23" data-name="Fill 23" class="cls-5" d="M180.6,0l-33.2,18.9,1.8,1.1L181.5,1.6l-.9-1.6Z"/>
+  </g>
+</svg>

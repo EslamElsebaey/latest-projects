@@ -1,0 +1,44 @@
+.mobileApps-readymadeSoftware {
+  .general-item .general-item-img {
+    margin-bottom: 30px;
+  }
+  .general-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+  }
+}
+
+.mobileApps-readymadeSoftware .general-item{
+.img-holder{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    height: 112px;
+}
+}
+
+
+.mobileApps-readymadeSoftware .general-item:first-of-type .general-item-img {
+  width: 90px;
+  margin: 0;
+}
+.mobileApps-readymadeSoftware .general-item:nth-of-type(2) .general-item-img {
+  width: 105px;
+  margin: 0;
+}
+
+@include max-768 {
+    .mobileApps-readymadeSoftware  {
+        .ready-soft-parent .myitems{
+            row-gap: 30px;
+        }
+        .general-item .img-holder{
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+        justify-content: center;
+    }
+    }
+}

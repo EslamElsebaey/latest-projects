@@ -1,0 +1,162 @@
+.integrated-eCommerce {
+  overflow: visible;
+  background: linear-gradient(180deg, #3b279c 0%, $secondary-color 100%);
+}
+.integrated-parent {
+  padding-top: 73px;
+  padding-bottom: 67px;
+  height: 608px;
+
+  .tasawk-btn {
+    justify-content: center;
+    margin-top: 40px;
+    width: 173px;
+    &:hover {
+      background-color: $third-color;
+      color: $text-color;
+    }
+  }
+  .blog-page-title {
+    color: $white-color;
+    margin-bottom: 25px;
+  }
+  .desc {
+    width: 487px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .list {
+    margin-top: 36px;
+    li .svg {
+      margin-inline-end: 16px;
+    }
+    li p {
+      color: $white-color;
+      font-size: 20px;
+    }
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .img-item {
+      position: relative;
+      .thin,
+      .shipping,
+      .dollarSign {
+        position: absolute;
+      }
+      .thin {
+        position: absolute;
+        width: 850px;
+        inset-inline-end: -17%;
+        top: -46px;
+      }
+      .shipping {
+        position: absolute;
+        inset-inline-end: 0;
+        width: 200px;
+        top: -10px;
+      }
+      .dollarSign {
+        width: 230px;
+        top: -30px;
+        inset-inline-start: 0;
+      }
+    }
+  }
+}
+
+@include max-1300 {
+  .integrated-parent .items .img-item .thin {
+    width: 700px;
+    top: 55px;
+    inset-inline-end: -12%;
+  }
+}
+
+@include max-1200 {
+  .integrated-parent .items .img-item .thin {
+    width: 650px;
+   top: 90px;
+    inset-inline-end: -5%;
+  }
+  .integrated-parent .items .img-item .shipping {
+    inset-inline-end: 0;
+    top: 0px;
+  }
+  .integrated-parent .items .img-item .dollarSign {
+    top: -15px;
+  }
+}
+
+@include max-992 {
+
+
+  .integrated-parent {
+    height: auto;
+  }
+  .integrated-parent .items {
+    grid-template-columns: 1fr;
+  }
+  .integrated-parent .items .img-item {
+    min-height: 330px;
+    margin-top: 40px;
+  }
+  .integrated-parent .items .img-item .thin {
+    width: 600px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .integrated-parent .items .img-item .dollarSign {
+    top: 0;
+  }
+  .integrated-parent .items .img-item .shipping {
+    inset-inline-end: 0;
+  }
+  .integrated-parent .desc {
+    text-align: center;
+    width: 100%;
+  }
+  .integrated-parent .tasawk-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@include max-768 {
+  .integrated-parent {
+    padding: 0;
+    padding-top: 50px;
+  }
+  .integrated-eCommerce {
+    padding-bottom: 20px;
+    // overflow: hidden;
+  }
+  .integrated-parent .desc {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .integrated-parent .list li p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .integrated-parent .list li .svg {
+    margin-inline-end: 12px;
+  }
+  .integrated-parent .items .img-item .dollarSign,
+  .integrated-parent .items .img-item .shipping {
+    width: 150px;
+  }
+  .integrated-parent .items .img-item .thin {
+    width: 400px;
+    top: 13%;
+    left: -15px;
+    transform: unset;
+  }
+  .integrated-parent .items .img-item {
+    min-height: 285px;
+    margin-top: 20px;
+  }
+}

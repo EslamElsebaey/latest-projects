@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Logo</title>
+    <g id="Brand/Illustrations/Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="icon" transform="translate(24.5725, 16)">
+            <path d="M47.5112462,128 L7.92056738,105.06383 L31.6753799,100.570415 L47.5114488,109.713374 L95.0200608,82.2837893 L110.854914,91.4266464 L63.3473151,118.856231 L47.5112462,128 Z" id="Combined-Shape" fill="#24156D"></path>
+            <polygon id="Fill-3" fill="#4C34BB" points="47.5098278 109.713475 95.0194529 82.2838906 95.0194529 27.4277609 47.5098278 54.854306"></polygon>
+            <polygon id="Fill-4" fill="#7ACEF0" points="0.00111448835 82.2838906 47.5107396 109.713475 47.5107396 54.8532928 0.00111448835 27.4237082"></polygon>
+            <polygon id="Fill-5" fill="#FFFFFF" points="47.5096251 1.10134124e-13 0 27.4275583 47.5096251 54.8571429 95.0202634 27.4275583"></polygon>
+            <polygon id="Fill-6" fill="#FFFFFF" points="31.5676798 82.2861196 7.81590679 86.7957447 15.7338399 73.135157"></polygon>
+            <polygon id="Fill-7" fill="#4C34BB" points="7.92441743 86.775076 7.92441743 105.138804 31.6751773 100.570415 31.6751773 82.2816616"></polygon>
+        </g>
+    </g>
+</svg>

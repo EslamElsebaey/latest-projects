@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/ComplexCube</title>
+    <g id="Brand/Illustrations/ComplexCube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="icon" transform="translate(16, 28.7148)">
+            <polygon id="Fill-1" fill="#4C34BB" points="54.84911 84.4455752 109.693424 52.7772709 109.693424 31.6658479 54.84911 63.3341521"></polygon>
+            <polygon id="Fill-2" fill="#24156D" points="54.8471215 84.4442885 73.1301191 95 127.977942 63.3340352 109.692605 52.7783237"></polygon>
+            <polygon id="Fill-3" fill="#7ACEF0" points="0.000233947507 52.7729429 54.849227 84.4389077 54.849227 63.3274846 0.000233947507 31.6603501"></polygon>
+            <polygon id="Fill-4" fill="#FFFFFF" points="54.8431444 -3.33955086e-13 7.10542736e-15 31.6671346 54.8431444 63.3342691 109.693307 31.6671346 54.8466536 -3.33955086e-13"></polygon>
+            <polygon id="Fill-5" fill="#7ACEF0" points="54.84911 21.111774 54.8479403 42.2220273 73.1344472 31.6674855"></polygon>
+            <polygon id="Fill-6" fill="#4C34BB" points="54.84911 21.111774 54.8479403 42.2220273 36.5590939 31.6663157"></polygon>
+        </g>
+    </g>
+</svg>

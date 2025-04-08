@@ -1,0 +1,294 @@
+// execution steps section
+
+.execution-steps{
+      background-color: $secondary-color;
+
+}
+.execution-steps-parent {
+    padding: 96px 0;
+    .freq-headline {
+      color: $white-color;
+    }
+    .freq-span {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .freq-desc {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .quote-box {
+      background-color: rgba(73, 56, 161, 0.6);
+    }
+    .qoute-text,
+    .qoute-author {
+      color: rgba(255, 255, 255, 0.8);
+    }
+    .quote-box .blue-line {
+      background-color: $third-color;
+    }
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: $white-color;
+    box-shadow: none;
+  }
+  .accordion-item:first-of-type .accordion-button {
+    border: none;
+    border-radius: 0;
+  }
+  .accordion-item:last-of-type .accordion-collapse,
+  .accordion-item:last-of-type {
+    border-radius: 0;
+  }
+  .accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  .step {
+    border: none;
+    margin-bottom: 16px;
+    background-color: $white-color;
+    width: 589px;
+    .accordion-button {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-inline-start: 16px;
+      padding-inline-end: 32px;
+    }
+  }
+  
+  .steps-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .steps-pic {
+    margin-top: -42px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .svg {
+      width: 450px;
+      height: 450px;
+    }
+  }
+  .steps-content {
+    margin-top: 90px;
+  }
+  .step-name {
+    display: flex;
+    margin-inline-start: 10px;
+    flex-direction: column;
+  }
+  .step-desc {
+    color: $text-color;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: start;
+    margin-bottom: 16px;
+    width: 439px;
+  }
+  .step-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .step-title {
+    color: $heading-color;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 30px;
+    text-align: start;
+    margin-inline-start: 10px;
+  }
+  
+  .step-span {
+    color: $text-color;
+    font-size: 12px;
+    text-align: start;
+  }
+  .arrow-icon {
+    font-size: 16px;
+    color: $secondary-color;
+    margin-inline-start: auto;
+  }
+  .accordion-button::after {
+    background-image: none;
+    width: unset;
+    height: unset;
+    content: "\f107";
+    font-family: "Font Awesome 6 Pro";
+    font-weight: 900;
+    color: $heading-color;
+    font-size: 16px;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+  }
+  
+  .accordion-body {
+    padding: 0;
+    padding-inline-start: 58px;
+    padding-inline-end: 32px;
+    padding-bottom: 28px;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  .read-more-parent {
+    margin-top: 35px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  // .readmore-about-us {
+  //   .read-more-text {
+  //     width: 286px;
+  //     color: $white-color;
+  //     font-size: 24px;
+  //     font-weight: 700;
+  //     line-height: 40px;
+  //   }
+  //   .svg {
+  //     display: block;
+  //     width: 160px;
+  //   }
+  //   .readmore-about-us {
+  //     margin-top: 56px;
+  //   }
+  //   .item-span {
+  //     color: rgba(255, 255, 255, 0.8);
+  //     font-size: 12px;
+  //     font-weight: 700;
+  //     line-height: 20px;
+  //     text-align: right;
+  //   }
+  //   .item-title {
+  //     width: 487px;
+  //     color: $white-color;
+  //     font-size: 16px;
+  //     font-weight: 700;
+  //     line-height: 24px;
+  //     margin: 16px 0;
+  //   }
+  //   .item-desc {
+  //     width: 487px;
+  //     color: rgba(255, 255, 255, 0.8);
+  //     font-size: 16px;
+  //     line-height: 24px;
+  //     margin-bottom: 16px;
+  //   }
+  //   .item-anchor {
+  //     padding: 11px 17px;
+  //     color: $white-color;
+  //     font-size: 12px;
+  //     display: inline-flex;
+  //     align-items: center;
+  //     line-height: 20px;
+  //     border-radius: 8px;
+  //     background-color: rgba(255, 255, 255, 0.1);
+  //     transition: ease-in-out 0.2s all;
+  //     &:hover {
+  //       background-color: $third-color;
+  //       color: $text-color;
+  //     }
+  //     .icon {
+  //       margin-inline-end: 5px;
+  //     }
+  //   }
+  // }
+  
+  @include max-992 {
+    .steps-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .steps-pic {
+      margin-top: 0;
+    }
+    .read-more-parent {
+      flex-direction: column;
+    }
+    .read-more-item:last-of-type {
+      margin-top: 30px;
+    }
+  }
+  
+  @include max-768 {
+    .execution-steps{
+      padding-bottom: 0;
+    }
+    .accordion-item,
+    .step-desc {
+      width: 100%;
+    }
+    .steps {
+      width: 100%;
+    }
+    .execution-steps-parent {
+      padding: 50px 0;
+    }
+    .step-title {
+      font-size: 18px;
+    }
+    .accordion-item.step {
+      .svg {
+        width: 23px;
+        height: 23px;
+      }
+    }
+    .step .accordion-button {
+      padding: 15px 0;
+      padding-inline-start: 10px;
+      padding-inline-end: 20px;
+    }
+    .accordion-body {
+      padding-inline-start: 40px;
+      padding-bottom: 20px;
+    }
+    .step-title {
+      margin-inline-start: 7px;
+    }
+    .steps-pic .svg {
+      width: 280px;
+      height: 280px;
+    }
+    .read-more-item {
+      text-align: center;
+    }
+    .read-more-parent {
+      margin-top: 10px;
+      row-gap: 10px;
+    }
+    // .readmore-about-us {
+    //   margin-top: 20px;
+    //   .read-more-text {
+    //     text-align: center;
+    //     width: 100%;
+    //     font-size: 18px;
+    //   }
+    //   .svg {
+    //     display: inline-block;
+    //     text-align: center;
+    //     width: 140px;
+    //   }
+    //   .item-title,
+    //   .item-desc {
+    //     width: 100%;
+    //     text-align: center;
+    //   }
+    //   .item-desc {
+    //     line-height: 1.5;
+    //     font-size: 15px;
+    //   }
+    //   .item-title {
+    //     line-height: 1.7;
+    //   }
+    //   .item-span {
+    //     display: block;
+    //     text-align: center;
+    //   }
+    // }
+  }
+  

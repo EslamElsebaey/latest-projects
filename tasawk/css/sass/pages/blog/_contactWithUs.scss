@@ -1,0 +1,167 @@
+.contactWithUs {
+  margin-top: 35px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  .contact-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+  }
+  .contact-item {
+    height: 432px;
+    width: 660px;
+    background-color: rgba(243, 242, 251, 0.8);
+    padding: 96px 0;
+    padding-inline-start: 70px;
+    h3 {
+      color: $heading-color;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 32px;
+    }
+    p {
+      width: 488px;
+      color: $text-color;
+      font-size: 20px;
+      line-height: 32px;
+      margin-bottom: 48px;
+    }
+    .newsletter-form .book-input {
+      width: 283.5px;
+      border: 2px solid $text-color;
+      &:focus {
+        border-color: $third-color;
+      }
+    }
+    .newsletter-form .subscribe-now {
+      transition: all ease-in-out 0.2s;
+      width: 182px;
+      background-color: $text-color;
+      &:hover {
+        background-color: $third-color;
+        color: $text-color;
+      }
+    }
+    .contact-social-links {
+        column-gap: 72px;
+        display: flex;
+        align-items: center;
+        .social-links-anchor {
+      .icon {
+        font-size: 35px;
+        color: var(--text-color);
+        transition: color 0.3s;
+      }
+      &:hover{
+        .icon{
+          color: var(--primary-color);
+        }
+      }
+    }
+    } 
+  }
+}
+
+@include max-1300 {
+  .contactWithUs .contact-item {
+    width: 100%;
+  }
+}
+
+@include max-1200 {
+  .contactWithUs .contact-item {
+    padding: 60px 30px;
+    height: 400px;
+  }
+  .contactWithUs .contact-item h3 {
+    font-size: 23px;
+  }
+  .contactWithUs .contact-item p {
+    width: 100%;
+  }
+  .contactWithUs .contact-item .newsletter-form .book-input {
+    width: 250px;
+  }
+  .contactWithUs .contact-item .newsletter-form .subscribe-now {
+    width: 150px;
+  }
+}
+
+@include max-992 {
+    .contactWithUs .contact-item .contact-social-links{
+        justify-content: center;
+        column-gap: 40px;
+    }
+  .contactWithUs .contact-item {
+    height: 400px;
+  }
+  .contactWithUs .contact-item p,
+  .contactWithUs .contact-item h3 {
+    text-align: center;
+    width: 100%;
+  }
+  .contactWithUs .contact-item {
+    padding: 50px 30px;
+  }
+  .contactWithUs .contact-parent {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .contactWithUs .contact-item {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 370px;
+  }
+  .contactWithUs .contact-item .newsletter-form .book-input {
+    width: 70%;
+  }
+}
+
+@include max-768 {
+  .contactWithUs .contact-item {
+    width: 100%;
+    margin: 0;
+    height: auto;
+  }
+  .contactWithUs .contact-item .newsletter-form .book-input {
+    width: 100%;
+  }
+  .contactWithUs .contact-item {
+    padding: 25px 12px 30px 12px;
+  }
+  .contactWithUs {
+    .container-fluid {
+      padding: 0 20px;
+    }
+  }
+  .contactWithUs .contact-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+  .contactWithUs .contact-item h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .contactWithUs .contact-item .newsletter-form .subscribe-now {
+    width: 182px;
+  }
+  .contactWithUs
+    .contact-item
+    .contact-social-links
+    .social-links-anchor
+    .icon {
+    font-size: 30px;
+  }
+  .contactWithUs {
+    margin-top: 60px;
+    padding-top: 0;
+    padding-bottom: 15px;
+  }
+  .contactWithUs {
+    .contact-social-links {
+      margin-top: 40px;
+    }
+  }
+}

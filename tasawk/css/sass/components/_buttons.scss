@@ -1,0 +1,11 @@
+.tasawk-btn {
+  background-color: $primary-color;
+}
+
+.sec-btn {
+  background-color: $text-color;
+  &:hover {
+    background-color: $third-color;
+    color: $text-color;
+  }
+}

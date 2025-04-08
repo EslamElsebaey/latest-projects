@@ -1,0 +1,242 @@
+.time-cost-sec {
+    padding: 96px 0;
+  }
+  .logo-prints-parent {
+    margin-top: 64px;
+    display: flex;
+    position: relative;
+  }
+  .logo-prints-item {
+    padding-inline-start: 105px;
+    padding-top: 48px;
+    padding-bottom: 235px;
+    // height: 576px;
+    width: 100%;
+  }
+  .logo-prints-item {
+    .price-sec {
+      display: flex;
+      align-items: center;
+      .price {
+        color: $heading-color;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+      }
+      .currency {
+        color: $text-color;
+        font-size: 16px;
+        line-height: 24px;
+        margin-inline-start: 11px;
+      }
+    }
+    .heading {
+      color: $heading-color;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 40px;
+      margin-top: 32px;
+      margin-bottom: 16px;
+    }
+    .desc {
+      width: 385px;
+      color: $text-color;
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 40px;
+    }
+   
+  }
+
+
+  .list {
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 23px;
+      p {
+        color: $text-color;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .svg {
+        margin-inline-end: 8px ;
+        width: 24px ;
+        height: 24px ;
+      }
+    }
+  }
+  
+  .logo-prints-item {
+    position: relative;
+  }
+  .bgDark {
+    background-color: $bgmedium-color;
+    &::before {
+      content: "";
+      width: 100%;
+      height: 10px;
+      background-color: $bgmedium-color;
+      position: absolute;
+      top: -10px;
+      left: 0;
+    }
+  }
+  .bgLight {
+    background-color: rgba(243, 242, 251, 0.8);
+    &::after {
+      content: "";
+      width: 100%;
+      height: 10px;
+      background-color: rgba(243, 242, 251, 0.8);
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+    }
+  }
+  .note {
+    background-color: $white-color;
+    width: 386px;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    .tasawk-btn{
+      justify-content: center;
+      &:hover{
+        background-color: var(--third-color);
+        color:var(--text-color);
+      }
+    }
+    p {
+      width: 100%;
+      color: $text-color;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 7px;
+      top: -7px;
+      right: 0;
+      background-color: $white-color;
+    }
+    &::before {
+      content: "";
+      height: 7px;
+      position: absolute;
+      width: 50%;
+      bottom: -7px;
+      left: 0;
+      background-color: $white-color;
+    }
+  }
+  
+  
+
+  @include max-992 {
+    .logo-prints-parent {
+        flex-direction: column;
+        margin-top: 45px;
+      }
+      .bgLight::after,
+      .bgDark::before {
+        display: none;
+      }
+      .bgDark {
+        padding-top: 35px;
+      }
+      .bgLight {
+        padding-bottom: 35px;
+      }
+      .logo-prints-item .price-sec {
+        justify-content: center;
+      }
+      .logo-prints-item .heading {
+        text-align: center;
+      }
+      .logo-prints-item {
+        padding-left: 50px;
+        padding-right: 50px;
+        .desc {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    
+      .list {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .note {
+        height: auto;
+        bottom: unset;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+      }
+      .bgDark {
+        padding-bottom: 150px;
+      }
+      .bgLight {
+        padding-top: 150px;
+      }
+      .logo-prints-item .price-sec .price {
+        line-height: 1;
+      }
+  }
+
+
+  @include max-768 {
+    .time-cost-sec{
+      padding: 50px 0;
+    }
+      .bgDark {
+        padding-bottom: 125px;
+      }
+      .bgLight {
+        padding-top: 125px;
+      }
+  
+  .note {
+    width: 90%;
+    padding-inline: 10px;
+  }
+
+ 
+
+  .logo-prints-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .list li:last-of-type {
+    margin-bottom: 0;
+  }
+  .logo-prints-item .price-sec .price {
+    font-size: 35px;
+  }
+  .logo-prints-item .heading {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+
+ .list {
+    width: auto;
+  }
+  .list li {
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+
+
+}

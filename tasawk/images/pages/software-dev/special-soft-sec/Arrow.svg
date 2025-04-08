@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Arrow</title>
+    <g id="Brand/Illustrations/Arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="Icon" transform="translate(38.5738, 41)">
+            <polygon id="Fill-1" fill="#FFFFFF" points="65.9162448 0 0.217626673 5.3174819 57.2214433 37.6398333"></polygon>
+            <polygon id="Fill-2" fill="#4C34BB" points="65.9162448 0 57.2214433 37.6398333 57.0024479 65.9347225 65.6938276 28.2948892"></polygon>
+            <polygon id="Fill-3" fill="#7ACEF0" points="0 33.6171617 57.0003948 65.9360912 57.222812 37.6377802 0.218995394 5.31885063"></polygon>
+            <polygon id="Fill-4" fill="#24156D" points="57.000737 65.9347225 76.2620662 78 82.8524589 44.4355341 64.4260496 33.8005703"></polygon>
+        </g>
+    </g>
+</svg>

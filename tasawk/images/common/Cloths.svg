@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Cloths</title>
+    <g id="Brand/Illustrations/Cloths" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="icon" transform="translate(35.6554, 16)">
+            <polygon id="Fill-1" fill="#7ACEF0" points="-1.77635684e-15 70.3998404 11.0850143 76.7997872 11.0850143 51.2021276 -1.77635684e-15 44.8014716"></polygon>
+            <polygon id="Fill-2" fill="#FFFFFF" points="3.55271368e-15 44.801117 11.0850143 51.2010638 33.2479506 38.4018794 22.1629364 32.0019326"></polygon>
+            <polygon id="Fill-3" fill="#24156D" points="22.1634328 121.597926 33.2555392 128 88.689121 96.0023936 77.5970147 89.6003191"></polygon>
+            <path d="M88.6718871,6.40689711 L88.6818161,31.9995922 L77.5967306,38.3918971 L77.5970856,89.5996809 L22.1635037,121.597996 L22.1627306,70.3998971 L11.0847306,76.7997872 L11.0847306,51.2042553 L22.1633619,44.8014716 L33.248518,38.4015248 L55.4228018,38.4015248 L66.5149082,19.200266 L33.474048,38.2710294 L77.5937306,12.8038971 L88.6718871,6.40689711 Z" id="Combined-Shape" fill="#4C34BB"></path>
+            <polygon id="Fill-6" fill="#7ACEF0" points="22.1730072 70.3941667 11.0844469 76.7997872 11.0844469 115.200177 22.1630782 121.597996"></polygon>
+            <polygon id="Fill-8" fill="#FFFFFF" points="77.5978657 0 55.4264188 12.8006028 66.5142699 19.2005496 88.6722418 6.40703895"></polygon>
+            <polygon id="Fill-9" fill="#7ACEF0" points="55.4229436 38.4015957 44.3343833 32.0023581 55.4264897 12.8003901 66.51505 19.2003369"></polygon>
+            <polygon id="Fill-10" fill="#FFFFFF" points="55.4229436 38.4015957 44.3343833 32.0023581 33.2479506 38.4015957"></polygon>
+            <polygon id="Fill-11" fill="#FFFFFF" points="44.3345961 32.0020745 22.1624399 32.0020745 33.2481634 38.401312"></polygon>
+            <path d="M66.5148373,57.6314359 L66.5013622,83.2234218 L44.3348798,96.0325352 L44.3306245,83.2234218 L55.4227309,76.8270211 L55.4291138,64.0306735 L66.5148373,57.6314359 Z M55.4326599,51.2041844 L55.4227309,63.9984043 L44.3306245,70.3940958 L44.3306245,57.5864008 L55.4326599,51.2041844 Z" id="Combined-Shape" fill-opacity="0.4" fill="#24156D"></path>
+        </g>
+    </g>
+</svg>

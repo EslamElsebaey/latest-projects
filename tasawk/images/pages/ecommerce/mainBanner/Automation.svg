@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Automation</title>
+    <g id="Brand/Illustrations/Automation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g>
+            <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+            <g id="Icon" transform="translate(16.2615, 25.25)">
+                <polygon id="Fill-1" fill="#24156D" points="41.7439864 63.7555395 85.8327808 89.6881494 96.1737997 83.7505864 120.617557 99.2989474 65.7809151 17.7492845"></polygon>
+                <polygon id="Fill-2" fill="#4C34BB" points="52.2988505 37.4758626 51.9876386 57.838767 41.7434699 63.7530859 42.0546819 43.3901816"></polygon>
+                <polygon id="Fill-3" fill="#7ACEF0" points="0 40.0838006 41.7437282 63.7526985 42.0549402 43.3897942 0.311211981 19.7208963"></polygon>
+                <polygon id="Fill-4" fill="#7ACEF0" points="83.6010939 55.2247597 83.2898819 75.587664 51.9878968 57.8382504 52.2991088 37.4753461"></polygon>
+                <polygon id="Fill-5" fill="#FFFFFF" points="34.4676954 0 0.311857649 19.7212837 42.0555858 43.3901816 52.2984631 37.4758626 83.6004483 55.2239849 65.7735545 17.7494136 52.1099281 25.636894 34.470278 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

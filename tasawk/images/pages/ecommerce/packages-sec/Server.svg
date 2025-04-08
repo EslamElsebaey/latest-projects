@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Server</title>
+    <g id="Brand/Illustrations/Server" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="Group" transform="translate(16, 20)">
+            <g id="icon" transform="translate(0, 33)">
+                <polygon id="Fill-1" fill="#24156D" points="53.2002694 7.10542736e-15 0 30.7158174 63.840051 67.571803 117.041001 36.8573471"></polygon>
+                <polygon id="Fill-2" fill="#4C34BB" points="117.040525 36.8576194 117.040525 49.1434017 63.840936 79.8578576 63.840936 67.5713945"></polygon>
+                <polygon id="Fill-3" fill="#7ACEF0" points="0.000340364095 43.0010551 63.8410721 79.8577215 63.8410721 67.5712584 0.000340364095 30.7159535"></polygon>
+                <polygon id="Fill-5" fill="#24156D" points="63.8408679 79.8577895 74.4799688 86 127.680919 55.2869056 117.041137 49.1433337"></polygon>
+                <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="114.840459 42 112.840459 43 112.840459 46 114.840459 45"></polygon>
+            </g>
+            <g id="icon" transform="translate(0, 17)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="53.2002694 0 0 30.7158174 63.840051 67.571803 117.041001 36.8573471"></polygon>
+                <polygon id="Fill-1" fill="#24156D" points="53.2002694 0 0 30.7158174 63.840051 67.571803 117.041001 36.8573471"></polygon>
+                <polygon id="Fill-2" fill="#4C34BB" points="117.040525 36.8576194 117.040525 49.1434017 63.840936 79.8578576 63.840936 67.5713945"></polygon>
+                <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="114.840459 43 112.840459 44 112.840459 47 114.840459 46"></polygon>
+                <polygon id="Fill-3" fill="#7ACEF0" points="0.000340364095 43.0010551 63.8410721 79.8577215 63.8410721 67.5712584 0.000340364095 30.7159535"></polygon>
+            </g>
+            <g id="icon">
+                <polygon id="Fill-1" fill="#FFFFFF" points="53.2002694 0 0 30.7158174 63.840051 67.571803 117.041001 36.8573471"></polygon>
+                <polygon id="Fill-2" fill="#4C34BB" points="117.040525 36.8576194 117.040525 49.1434017 63.840936 79.8578576 63.840936 67.5713945"></polygon>
+                <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="114.840459 43 112.840459 44 112.840459 47 114.840459 46"></polygon>
+                <polygon id="Fill-3" fill="#7ACEF0" points="0.000340364095 43.0010551 63.8410721 79.8577215 63.8410721 67.5712584 0.000340364095 30.7159535"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

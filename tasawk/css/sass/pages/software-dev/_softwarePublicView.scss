@@ -1,0 +1,93 @@
+
+
+.general-item{
+    .imgs-holder{
+        position: relative;
+        width: 160px;
+        height: 160px;
+        .ruler-img , .angle-img{
+            position: absolute;
+        }
+        .angle-img{
+            width: 109px;
+        }
+        .ruler-img{
+            position: absolute;
+            inset-inline-start: 35px;
+            top: 25px;
+        }
+    }
+    .blue-line{
+        height: 8px;
+        width: 56px;
+        background-color: $secondary-color;
+        margin-top: 32px;
+    }
+    .list{
+        margin-top: 32px;
+    }
+}
+
+
+.tooltip-anchor{
+    color: $primary-color;
+}
+
+
+.custom-tooltip {
+    --bs-tooltip-bg: $heading-color;
+    --bs-tooltip-border-radius : 0 ;
+    --bs-tooltip-max-width  : 124px ; 
+    --bs-tooltip-padding-y  : 5px ; 
+    --bs-tooltip-font-size  : 11px ; 
+}
+
+
+  @include max-1200{
+    .softwareDev-public-view{
+        .freq-headline{
+            width: 589px;
+        }
+    }
+  }
+
+  @include max-768 {
+    .softwareDev-public-view .freq-headline{
+        width: 100%;
+    }
+    .general-item .imgs-holder .ruler-img{
+        inset-inline-start: 7px;
+        top: 21px;
+        width: 120px;
+    }
+    .general-item .public-item-desc , .list li p {
+        font-size: 16px;
+    }
+    .general-item .imgs-holder{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+    .general-item .imgs-holder .angle-img{
+        width: 90px;
+    }
+    .softwareDev-public-view{
+        .general-item .blue-line{
+            margin-top: 25px;
+        }
+        .general-item .list{
+            margin-top: 25px;
+            min-width: 90%;
+            max-width: 100%;
+        }
+        .general-item {
+            margin-bottom: 20px;
+        }
+    }
+    .readyMade-software{
+        .general-item{
+            margin-bottom: 15px;
+        }
+    }
+   
+}

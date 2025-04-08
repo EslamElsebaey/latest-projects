@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Checks</title>
+    <g id="Brand/Illustrations/Checks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="Group-5" transform="translate(35.5337, 90.4598)">
+            <polygon id="Fill-1" fill="#FFFFFF" points="25.1873178 0 0 14.5407941 0 14.5413313 25.1857062 29.0869603 50.3767845 14.5434802"></polygon>
+            <polygon id="Fill-2" fill="#4C34BB" points="50.3769456 14.5436951 50.3769456 24.2393485 25.1858673 38.7828287 25.1858673 29.086638"></polygon>
+            <polygon id="Fill-3" fill="#7ACEF0" points="0.000214885936 24.2397245 25.185921 38.7826675 25.185921 29.0870141 0.000214885936 14.541385"></polygon>
+            <polygon id="Fill-4" fill="#24156D" points="25.1858673 38.7829361 33.5862958 43.6323745 58.774688 29.0867454 50.3769456 24.2394559"></polygon>
+            <polygon id="Path-2" fill="#24156D" points="25.2368541 19.8004923 50.3769456 14.5436614 37.8951309 7.34185981"></polygon>
+        </g>
+        <g id="icon" transform="translate(33.8624, 25.9079)">
+            <path d="M18.4529131,59.9352 L23.0628022,73.2483118 L11.5347587,66.5921248 L18.4529131,59.9352 Z M80.7413925,0 L92.2746015,6.65840075 L33.4491842,63.2621865 L28.8356792,49.9442781 L80.7413925,0 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <polygon id="Path" fill="#4C34BB" points="92.2751181 6.65876972 92.2751181 19.9770471 26.9081154 84.3520418 11.5346849 39.9548321 23.0693699 33.2956934 33.4491842 63.2621865"></polygon>
+            <polygon id="Path" fill="#7ACEF0" points="0 33.2953245 11.5346849 39.9552011 23.0693699 73.2516325 26.9081154 84.3524108 15.3778581 77.6910583"></polygon>
+            <polygon id="Fill-5" fill="#FFFFFF" fill-rule="nonzero" points="11.5347587 39.9551273 23.0694437 33.2959886 11.5347587 26.636112 7.37936468e-05 33.2959886"></polygon>
+        </g>
+    </g>
+</svg>

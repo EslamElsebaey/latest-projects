@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Comment</title>
+    <g id="Brand/Illustrations/Comment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="icon" transform="translate(16, 38)">
+            <polygon id="Fill-9" fill="#4A34BA" points="123.172762 47.404791 123.171449 54.3787298 82.1145179 78.0809283 82.1158313 71.1083028"></polygon>
+            <path d="M2.11173301e-11,54.3780731 L0.0013133595,47.4041343 L41.058244,47.4054477 L41.058,47.4071343 L82.116094,71.1075148 L82.1147806,78.0814536 L41.05785,54.3779418 L2.11173301e-11,54.3780731 Z M0.00170736733,23.7027238 L0.00170736733,30.1539456 L15.3864003,38.5239855 L20.5282026,35.5531664 L0.00170736733,23.7027238 Z" id="Combined-Shape" fill="#7ACEF0"></path>
+            <polygon id="Fill-12" fill="#24156D" points="82.1146493 78.0809283 41.0577186 54.3774165 0.000788015681 54.3774165 0.000788015681 59.2565469 41.0564053 59.2565469 82.4561227 83.7782817 128.339649 57.2865077 123.17158 54.3774165"></polygon>
+            <polygon id="Fill-13" fill="#FFFFFF" points="61.5872346 11.8491292 41.0581127 3.87344768e-13 0.00118202352 23.7021985 20.5276773 35.5539544 0.00118202352 47.404397 41.0581127 47.4057103 82.1163566 71.1079088 123.173287 47.404397"></polygon>
+            <polygon id="Fill-15" fill="#24156D" points="39.3255288 14.1423862 35.3867638 16.4158114 86.9111694 46.1660303 90.8512478 43.8912917"></polygon>
+            <polygon id="Fill-16" fill="#24156D" points="27.5282773 21.2555411 23.5881989 23.5302797 75.1139179 53.2804986 79.0539963 51.0044466"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,132 @@
+.mobileApps-worksamples{
+  margin-bottom: 150px;
+}
+.software-worksamples{
+  margin-bottom: 150px;
+}
+
+.soft-work-samples{
+  .more-holder .desc {
+    color: var(--text-color);
+  }
+  .moreworks-link:hover{
+    color: var(--text-color);
+  }
+        // background-color: #4c34bb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // .freq-span , .freq-desc{
+    //     color: rgba(255, 255, 255, 0.8);
+    // }
+    // .freq-headline{
+    //     color: #fff;
+    // }
+    .mySwiper-parent{
+        margin-top: 50px;
+        position: relative;
+        padding-bottom: 50px;
+    }
+    .swiper-pagination{
+        display: flex;
+        justify-content: center;
+    }
+    .swiper-pagination-bullet{
+        opacity: 0.3;
+        background-color: #000;
+    }
+    .swiper-pagination-bullet-active{
+        opacity: 1;
+        background-color: var(--text-color);
+    }
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+    .work-item{
+        width: 100%;
+        padding: 30px;
+        img{
+          display: block;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+
+@include max-1200 {
+  .soft-work-samples {
+    .freq-headline {
+      width: 589px;
+    }
+  }
+}
+
+@include max-992 {
+  .softwareDiv-work-samples,
+  .ecommerce-work-samples {
+    .work-samples-parent .freq-div {
+      margin-bottom: 45px;
+    }
+    .freq-div,
+    .freq-headline,
+    .freq-desc {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .ecommerce-work-samples,
+  .softwareDiv-work-samples {
+    .work-samples-parent .freq-div {
+      top: 0;
+    }
+  }
+
+  .softwareDiv-work-samples .work-samples-parent .freq-div {
+    margin-bottom: 80px;
+  }
+}
+
+@include max-768 {
+  .software-worksamples{
+    margin-bottom: 100px;
+  }
+  .softwareDiv-work-samples .work-samples-parent .freq-div {
+    margin-bottom: 45px;
+    padding-top: 60px;
+  }
+  .mobileApps-worksamples{
+    margin-bottom: 100px;
+  }
+  .softwareDiv-work-samples .freq-desc,
+  .ecommerce-work-samples .freq-desc {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .softwareDiv-work-samples .freq-div,
+  .softwareDiv-work-samples .freq-headline,
+  .softwareDiv-work-samples .freq-desc {
+    width: 100%;
+  }
+  .softwareDiv-work-samples .freq-headline,
+  .ecommerce-work-samples .freq-headline {
+    font-size: 18px;
+  }
+  .softwareDiv-work-samples {
+    padding-top: 0;
+  }
+  .soft-work-samples {
+    padding: 50px 0;
+  }
+
+  .soft-work-samples .freq-headline {
+    width: 100%;
+  }
+    .soft-work-samples .swiper-pagination{
+    bottom: 0;
+  }
+  .soft-work-samples .mySwiper-parent{
+    padding-bottom: 30px;
+  }
+}
+

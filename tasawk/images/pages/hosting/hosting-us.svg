@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 67.2 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: #24156d;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-.5" width="67.6" height="47"/>
+    </clipPath>
+  </defs>
+  <g id="Group_82" data-name="Group 82">
+    <rect id="Rectangle_33" data-name="Rectangle 33" class="cls-2" x="-.5" y="14.6" width="67.6" height="3.3"/>
+    <rect id="Rectangle_34" data-name="Rectangle 34" class="cls-2" x="-.5" y="21.9" width="67.6" height="3.3"/>
+    <rect id="Rectangle_35" data-name="Rectangle 35" class="cls-2" x="-.5" y="7.3" width="67.6" height="3.3"/>
+    <g id="Group_81" data-name="Group 81">
+      <g class="cls-4">
+        <g id="Group_80" data-name="Group 80">
+          <path id="Path_58" data-name="Path 58" class="cls-2" d="M67.1,3.3c-.2-1.9-1.8-3.3-3.7-3.3H3.2C1.3,0-.2,1.5-.4,3.3h67.5Z"/>
+          <path id="Path_59" data-name="Path 59" class="cls-2" d="M-.4,43.7c.2,1.9,1.8,3.3,3.7,3.3h60.2c1.9,0,3.5-1.4,3.7-3.3H-.4Z"/>
+          <rect id="Rectangle_36" data-name="Rectangle 36" class="cls-2" x="-.5" y="36.4" width="67.6" height="3.3"/>
+          <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-2" x="-.5" y="29.1" width="67.6" height="3.3"/>
+          <path id="Path_60" data-name="Path 60" class="cls-2" d="M25,0v25.3H-.5V3.7C-.5,1.7,1.2,0,3.2,0h21.8Z"/>
+          <path id="Path_61" data-name="Path 61" class="cls-3" d="M1,3.5l.8,2.6L-.3,4.5h2.8L.2,6.1l.9-2.6Z"/>
+          <path id="Path_62" data-name="Path 62" class="cls-3" d="M1,8.6l.8,2.6-2.2-1.6h2.8L.2,11.2l.9-2.6Z"/>
+          <path id="Path_63" data-name="Path 63" class="cls-3" d="M1,13.7l.8,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_64" data-name="Path 64" class="cls-3" d="M1,18.8l.8,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_65" data-name="Path 65" class="cls-3" d="M4,1l.9,2.6-2.2-1.6h2.8l-2.3,1.6.9-2.6Z"/>
+          <path id="Path_66" data-name="Path 66" class="cls-3" d="M4,6.1l.9,2.6-2.2-1.6h2.8l-2.3,1.6.9-2.6Z"/>
+          <path id="Path_67" data-name="Path 67" class="cls-3" d="M4,11.1l.9,2.6-2.2-1.6h2.8l-2.3,1.6.9-2.6Z"/>
+          <path id="Path_68" data-name="Path 68" class="cls-3" d="M4,16.2l.9,2.6-2.2-1.6h2.8l-2.3,1.6.9-2.6Z"/>
+          <path id="Path_69" data-name="Path 69" class="cls-3" d="M4,21.3l.9,2.6-2.2-1.6h2.8l-2.3,1.6.9-2.6Z"/>
+          <path id="Path_70" data-name="Path 70" class="cls-3" d="M7,3.5l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_71" data-name="Path 71" class="cls-3" d="M7,8.6l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_72" data-name="Path 72" class="cls-3" d="M7,13.7l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_73" data-name="Path 73" class="cls-3" d="M7,18.8l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_74" data-name="Path 74" class="cls-3" d="M10,1l.8,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_75" data-name="Path 75" class="cls-3" d="M10,6.1l.8,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_76" data-name="Path 76" class="cls-3" d="M10,11.1l.8,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_77" data-name="Path 77" class="cls-3" d="M10,16.2l.8,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_78" data-name="Path 78" class="cls-3" d="M10,21.3l.8,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_79" data-name="Path 79" class="cls-3" d="M13,3.5l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_80" data-name="Path 80" class="cls-3" d="M13,8.6l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_81" data-name="Path 81" class="cls-3" d="M13,13.7l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_82" data-name="Path 82" class="cls-3" d="M13,18.8l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_83" data-name="Path 83" class="cls-3" d="M16,1l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_84" data-name="Path 84" class="cls-3" d="M16,6.1l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_85" data-name="Path 85" class="cls-3" d="M16,11.1l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_86" data-name="Path 86" class="cls-3" d="M16,16.2l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_87" data-name="Path 87" class="cls-3" d="M16,21.3l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_88" data-name="Path 88" class="cls-3" d="M19,3.5l.9,2.6-2.2-1.6h2.8l-2.2,1.6.8-2.6Z"/>
+          <path id="Path_89" data-name="Path 89" class="cls-3" d="M19,8.6l.9,2.6-2.2-1.6h2.8l-2.2,1.6.8-2.6Z"/>
+          <path id="Path_90" data-name="Path 90" class="cls-3" d="M19,13.7l.9,2.6-2.2-1.6h2.8l-2.2,1.6.8-2.6Z"/>
+          <path id="Path_91" data-name="Path 91" class="cls-3" d="M19,18.8l.9,2.6-2.2-1.6h2.8l-2.2,1.6.8-2.6Z"/>
+          <path id="Path_92" data-name="Path 92" class="cls-3" d="M22,1l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_93" data-name="Path 93" class="cls-3" d="M22,6.1l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_94" data-name="Path 94" class="cls-3" d="M22,11.1l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_95" data-name="Path 95" class="cls-3" d="M22,16.2l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+          <path id="Path_96" data-name="Path 96" class="cls-3" d="M22,21.3l.9,2.6-2.2-1.6h2.8l-2.2,1.6.9-2.6Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

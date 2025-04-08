@@ -1,0 +1,71 @@
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+$third-color: var(--third-color);
+$heading-color: var(--heading-color);
+$text-color: var(--text-color);
+$background-color: var(--background-color);
+$bgdark-color: var(--bgdark-color);
+$bgmedium-color: var(--bgmedium-color);
+$bglight-color: var(--bglight-color);
+$white-color: var(--white-color);
+$grey-color: var(--grey-color);
+$seance-color: var(--seance-color);
+$green-color: var(--green-color);
+$yellow-color: var(--yellow-color);
+$red-color: var(--red-color);
+$blue-color: var(--blue-color);
+$primary-rgb: var(--primary-rgb);
+$secondary-rgb: var(--secondary-rgb);
+$third-rgb: var(--third-rgb);
+$heading-rgb: var(--heading-rgb);
+$text-rgb: var(--text-rgb);
+$bgdark-rgb: var(--bgdark-rgb);
+$bgmedium-rgb: var(--bgmedium-rgb);
+$bglight-rgb: var(--bglight-rgb);
+$white-rgb: var(--white-rgb);
+$grey-rgb: var(--grey-rgb);
+$seance-rgb: var(--seance-rgb);
+$green-rgb: var(--green-rgb);
+$yellow-rgb: var(--yellow-rgb);
+$red-rgb: var(--red-rgb);
+$blue-rgb: var(--blue-rgb);
+$main-gred: #4c34bb;
+$blue-gred: #24156d;
+$green-gred: #19bb58;
+$purple-gred: #94237d;
+$red-gred: #c61753;
+$gold-gred1: #d29326;
+$gold-gred2: #fbea82;
+
+$basic-blue: linear-gradient(
+  38.78deg,
+  $main-gred 0%,
+  $main-gred 85.45%,
+  $blue-gred 85.46%,
+  $main-gred 100%
+);
+
+$hard-blue: linear-gradient(
+  32deg,
+  $main-gred 0%,
+  $blue-gred 85.45%,
+  $main-gred 85.45%,
+  $blue-gred 100%
+);
+
+$basic-green: linear-gradient(
+  32deg,
+  $main-gred 50%,
+  $green-gred 85.45%,
+  $main-gred 85.45%,
+  $green-gred 100%
+);
+$basic-red: linear-gradient(
+  32deg,
+  $main-gred 0%,
+  $purple-gred 85.45%,
+  $main-gred 85.45%,
+  $red-gred 100%
+);
+
+$gold: linear-gradient(244.89deg, $gold-gred1 0%, $gold-gred2 100%);

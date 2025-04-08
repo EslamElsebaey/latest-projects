@@ -1,0 +1,82 @@
+
+.main-breadcrumb{
+    position: relative;
+    margin-top: 100px;
+    background-color: $bglight-color;
+    height: 40px;
+    .up-btn{
+        position: absolute;
+        top: -45px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        img{
+            display: block;
+            width: 32px;
+            aspect-ratio: 1 / 1;
+        }
+    }
+
+}
+.breadcrumb-ul{
+    display: flex;
+    align-items: center;
+}
+.breadcrumb-ul-li{
+    display: flex;
+    align-items: center;
+    .breadcrumb-anchor{
+        color: $text-color;
+        font-size: 0.75rem;
+        display: block;
+        transition: all ease-in-out .2s;
+    } 
+    &:hover{
+        .breadcrumb-anchor{
+            color: $primary-color;
+        }
+        .breadcrumb-current {
+            color: $text-color;
+        }
+    }
+}
+
+.breadcrumb-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px ;
+    .siteMap{
+        color: $text-color;
+        font-size: 0.75rem;
+    }
+}
+
+.breadcrumb-ul-li::after{
+    font-size: 10px;
+    content: "\f104";
+    transition: all linear 0.3s;
+    font-family: "Font Awesome 6 Pro";
+    color: $text-color;
+    font-weight: 900;
+    margin: 4px 3px 0 4px;
+}
+.breadcrumb-ul-li.active-li::after{
+content: "";
+}
+
+
+
+
+
+@include max-768 {
+    .main-breadcrumb{
+        height: auto;
+        .container-fluid{
+            padding: 0;
+        }
+    }
+    .breadcrumb-parent{ 
+     display: none;
+    }
+}

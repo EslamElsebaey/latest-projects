@@ -1,0 +1,92 @@
+.ecommerce-main {
+  .main-parent {
+    background-image: linear-gradient(
+      32deg,
+      #4c34bb 0%,
+      #24156d 85.45%,
+      #4c34bb 85.45%,
+      #24156d 100%
+    );
+    height: 1176px;
+  }
+  .page-heading {
+    width: 791px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .myitems {
+    width: 1159px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 62px;
+    .general-item {
+      margin-inline-end: 0;
+      width: 345px;
+      .freq-item-title {
+        color: $white-color;
+      }
+    }
+  }
+  .general-item .public-item-desc {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .general-item .general-item-img {
+    width: 240px;
+  }
+}
+
+.ecommerce-main .fixed-topheader .top-header-list {
+  column-gap: 40px;
+}
+
+@include max-1300 {
+  .ecommerce-main .myitems {
+    width: 100%;
+    column-gap: 43px;
+  }
+}
+
+@include max-1200 {
+  .ecommerce-main .fixed-topheader .top-header-list {
+    column-gap: 12px;
+  }
+  .ecommerce-main .myitems .general-item {
+    width: 100%;
+  }
+  .ecommerce-main .myitems .general-item .freq-item-title {
+    font-size: 22px;
+  }
+}
+
+@include max-992 {
+  .ecommerce-main .page-heading {
+    width: 100%;
+  }
+  .ecommerce-main .myitems {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+  .ecommerce-main .main-parent {
+    height: auto;
+    padding-bottom: 60px;
+  }
+}
+
+@include max-768 {
+  .ecommerce-main .myitems .general-item {
+    margin: 0;
+  }
+  .ecommerce-main .main-banner-content .container {
+    padding: 0;
+  }
+  .ecommerce-main .myitems {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .ecommerce-main .general-item .general-item-img {
+    width: 130px;
+  }
+  .ecommerce-main .myitems {
+    margin-top: 30px;
+  }
+}

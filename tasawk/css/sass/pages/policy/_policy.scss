@@ -1,0 +1,168 @@
+
+
+.policy-main{
+    .main-parent{
+        background-color: #4C34BB;
+        height: auto;
+        padding-bottom: 108px;
+    }
+    
+    .main-banner-content{
+        padding-top: 100px;
+    }
+   
+    .latest-update{
+        font-size: 12px;
+        color: #FFFFFFCC;
+    }
+}
+
+.policy-main , .reviews-main , .contact-main{
+     .upper-cont{
+        text-align: center;
+        margin-bottom: 47px;
+        .title{
+            font-size: 48px;
+            text-align: center;
+            color: #fff;
+            margin-bottom: 35px;
+            line-height: 59px;
+        }
+    }
+}
+.contact-main{
+    .upper-cont{
+        margin-bottom: 0;
+    }
+}
+.upper-cont {
+    .article-img{
+        width: 160px;
+    }
+    .article-holder{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.policy-main .fixed-topheader .top-header-list{
+    column-gap: 40px;
+}
+.policy-holder{
+    width: 791px;
+    background-color: #fff;
+    margin-inline: auto;
+    padding-inline: 80px;
+    padding-top: 90px;
+    padding-bottom: 109px;
+    position: relative;
+    p{
+        color: #4938A1;
+        font-size: 20px;
+        text-align: start;
+        
+    }
+    &::after{
+        position: absolute;
+        top: -1px;
+        content: "";
+        inset-inline-start: 0;
+        background-color: #4C34BB;
+        // transform: matrix(-1, 0, 0, -1, 0, 0);
+        width: 68px;
+        height: 68px;
+        clip-path: polygon(100% 100%, 100% 0, 0 0);
+        
+    }
+    .square-clip{
+        position: absolute;
+        top: 0;
+        inset-inline-start: 0;
+        background-color: #EAE7F9;
+        // transform: matrix(-1, 0, 0, -1, 0, 0);
+        width: 68px;
+        height: 68px;
+        // clip-path: polygon(0 0, 0% 100%, 100% 100%);
+       
+    }
+}
+.policy-list{
+    margin-top: 50px;
+    .title{
+        font-size: 24px;
+        color: #24156D;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .stages-list {
+         div{
+            font-size: 20px;
+            color: #4938A1;
+            line-height: 32px;
+        }
+    }
+}
+
+@include max-1200 {
+     .policy-main .page-top-header .top-header-list{
+        column-gap: 25px;
+    }
+     .policy-main .fixed-topheader .top-header-list{
+        column-gap: 10px;
+    }
+   
+}
+
+@include max-992 {
+    .policy-holder{
+        width: 100%;
+        padding-inline: 75px;
+        padding-bottom: 70px;
+    }
+}
+
+@include max-768 {
+    .policy-holder{
+        width: 100%;
+        padding-top: 75px;
+        padding-inline: 20px;
+        padding-bottom: 70px;
+        padding-bottom: 40px;
+    }
+    .policy-main .main-parent{
+        padding-bottom: 70px;
+    }
+    .policy-main .upper-cont{
+        margin-bottom: 35px;
+    }
+    .policy-holder p{
+        font-size: 16px;
+    }
+    .policy-main .main-banner-content{
+        padding-top: 20px;
+    }
+    .reviews-main , .policy-main {
+         .upper-cont .title{
+        font-size: 20px;
+        line-height: normal;
+        margin-bottom: 12px;
+    }
+    }
+    
+    .policy-holder .square-clip , .policy-holder::after{
+        width: 50px;
+        height: 50px;
+    }
+    .policy-list .stages-list div{
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .policy-list .title{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .policy-list .stages-list li:last-of-type{
+        margin-bottom: 0;
+    }
+  
+}

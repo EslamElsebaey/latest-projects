@@ -1,0 +1,152 @@
+.whyToStart {
+  padding: 96px 0;
+  .quote-sec {
+    margin-top: 65px;
+  }
+  .myitems {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 21px;
+    row-gap: 100px;
+    margin-top: 100px;
+    .bg-item {
+      height: 224px;
+      width: 284px;
+      background-color: $bglight-color;
+      padding: 32px;
+      .freq-item-title {
+        margin: 0;
+        margin-bottom: 8px;
+      }
+      .public-item-desc {
+        transition: color ease-in-out 0.2s;
+      }
+      .details-anchor {
+        display: block;
+        &:hover {
+          .public-item-desc {
+            color: $primary-color;
+          }
+        }
+      }
+      .left {
+        margin-top: 48px;
+        display: inline-block;
+        &:hover{
+          .left-img{
+            filter: brightness(0) saturate(100%) invert(30%) sepia(74%) saturate(1444%) hue-rotate(348deg) brightness(105%) contrast(95%);
+          }
+        }
+        .left-img {
+          width: 32px;
+          height: 32px;
+        }
+      }
+    }
+  }
+  .general-item .public-item-desc {
+    width: 250px;
+  }
+  .freq-item-title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+  }
+  .general-item .general-item-img {
+    width: 96px;
+    // height: 96px;
+    filter: brightness(0) saturate(100%) invert(12%) sepia(31%) saturate(5747%)
+      hue-rotate(242deg) brightness(93%) contrast(109%);
+  }
+  .general-item {
+    margin-inline-end: 0;
+  }
+}
+
+@include max-1200 {
+  .freq-headline {
+    width: 589px;
+  }
+  .whyToStart .myitems {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@include max-992 {
+  .whyToStart .myitems {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+  }
+  .whyToStart .quote-sec {
+    margin-top: 120px;
+  }
+  .whyToStart {
+    .quote-sec .employee-sec .img-hold {
+      width: 250px;
+    }
+    .quote-sec .employee-sec {
+      top: -23px;
+    }
+  }
+}
+
+@include max-768 {
+  .whyToStart {
+    padding: 50px 0;
+  }
+  .whyToStart {
+    .quote-sec .employee-sec .img-hold {
+      width: 120px;
+      height: auto;
+    }
+  }
+  .ecommerce-paretners .freq-div {
+    padding-inline-start: 0;
+  }
+
+  .whyToStart .quote-sec .employee-sec {
+    top: unset;
+  }
+  .whyToStart .myitems {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .freq-headline,
+  .whyToStart .general-item .public-item-desc {
+    width: 100%;
+  }
+  .whyToStart .general-item .general-item-img {
+    width: 80px;
+  }
+  .whyToStart .myitems {
+    margin-top: 45px;
+  }
+  .whyToStart .general-item {
+    margin-bottom: 0;
+  }
+  .whyToStart .myitems .bg-item {
+    height: auto;
+    /* width: 100%; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    // min-height: 180px;
+    margin-inline: auto;
+    margin-top: 10px;
+    width: 300px;
+  }
+  .whyToStart {
+    padding-bottom: 70px;
+    .quote-sec .quote-box-div {
+      height: auto;
+      min-height: 325px;
+    }
+  }
+  .whyToStart .quote-sec {
+    margin-top: 65px;
+  }
+  .whyToStart .myitems .bg-item .left{
+    margin-top: 35px;
+  }
+}

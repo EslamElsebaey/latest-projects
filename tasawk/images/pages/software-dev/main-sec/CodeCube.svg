@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/CodeCube</title>
+    <g id="Brand/Illustrations/CodeCube" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="icon" transform="translate(15.6645, 30.5844)">
+            <polygon id="Fill-1" fill="#FFFFFF" points="51.4674785 1.13686838e-13 7.10542736e-15 29.7155087 51.4674785 59.4277247 102.934957 29.7155087"></polygon>
+            <path d="M34.5370966,29.4068125 L38.8325014,31.8385155 L34.8910682,36.8500955 L35.0606453,36.9472319 L43.8967657,34.7081554 L48.0818631,37.0772959 L30.3865731,41.0203755 L27.923589,39.6258919 L34.5370966,29.4068125 Z M45.0205845,20.0105938 L58.4023594,34.347269 L54.039453,36.8662301 L40.6461534,22.5361404 L45.0205845,20.0105938 Z M68.7761984,16.038538 L71.2391826,17.4330216 L64.5038429,27.596124 L60.3187455,25.2269835 L64.1498712,20.152841 L63.9802941,20.0557046 L55.2528349,22.3573436 L50.95743,19.9256406 L68.7761984,16.038538 Z" id="Shape" fill="#4C34BB"></path>
+            <polygon id="Fill-5" fill="#4C34BB" points="102.934957 29.7151795 102.934957 59.4290418 51.4691248 89.1429042 51.4674785 59.4290418"></polygon>
+            <polygon id="Fill-6" fill="#7ACEF0" points="0.00214029372 59.4282186 51.4696188 89.1437274 51.4679724 59.4282186 0.000493913935 29.7143563"></polygon>
+            <polygon id="Path" fill="#24156D" points="51.4689602 89.1430688 102.934792 59.4275601 123.99096 71.5855601 72.5269602 101.29956"></polygon>
+        </g>
+    </g>
+</svg>

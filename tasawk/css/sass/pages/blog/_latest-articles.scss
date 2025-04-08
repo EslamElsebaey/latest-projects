@@ -1,0 +1,156 @@
+.latest-articles {
+  padding: 96px 0;
+  background-color: rgba(243, 242, 251, 0.8);
+}
+
+.blog-page-title {
+  color: $heading-color;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 54px;
+}
+
+.articles-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 22px;
+  row-gap: 32px;
+}
+
+.article-item {
+  display: block;
+  .img-holder {
+    overflow: hidden;
+    display: flex;
+    height: 248px;
+    position: relative;
+    // background: linear-gradient(180deg, #3b279c 0%, $secondary-color 100%);
+    .item-img {
+      width: 100%;
+      object-fit: cover;
+      height: auto;
+    }
+    .positioned-text {
+      z-index: 2;
+      position: absolute;
+      top: 10px;
+      inset-inline-start: 10px;
+      color: $text-color;
+      font-size: 12px;
+      line-height: 20px;
+      background-color: $white-color;
+      padding: 2px 7px;
+    }
+  }
+  .item-desc {
+    padding: 0 25px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    background-color: $white-color;
+    .title {
+      display: inline-block;
+      color: $heading-color;
+      transition: color ease-in-out 0.2s;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 16px;
+    }
+    .desc {
+      color: rgba(73, 56, 161, 0.8);
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+.article-item .item-desc .title:hover {
+  color: $primary-color;
+}
+
+.trendy-box {
+  position: absolute;
+  bottom: 15px;
+  inset-inline-start: 32px;
+  height: 24px;
+  width: 24px;
+  background-color: $heading-color;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  .tooltip-span {
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  img,
+  .svg {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) saturate(100%) invert(76%) sepia(47%) saturate(793%)
+      hue-rotate(354deg) brightness(101%) contrast(101%);
+  }
+}
+
+.trendy-tooltip {
+  --bs-tooltip-bg: $heading-color;
+  --bs-tooltip-border-radius: 0;
+  --bs-tooltip-max-width: 160px;
+  --bs-tooltip-padding-y: 5px;
+  --bs-tooltip-font-size: 12px;
+}
+
+@include max-1200 {
+  .articles-parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include max-992 {
+  .blog-page-title {
+    text-align: center;
+  }
+  .article-item .item-desc {
+    padding: 0 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    min-height: 215px;
+  }
+}
+
+@include max-768 {
+
+
+  .articles-parent {
+    grid-template-columns: 1fr;
+  }
+  .latest-articles {
+    padding: 50px 0;
+  }
+  .blog-page-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+  .article-item .item-desc .title {
+    margin-bottom: 12px;
+    font-size: 15px;
+  }
+  .article-item .item-desc .desc {
+    font-size: 15px;
+  }
+
+  .article-item .item-desc {
+    padding: 20px 12px;
+    min-height: unset;
+  }
+  .articles-parent {
+    row-gap: 30px;
+  }
+  .article-item .img-holder {
+    height: auto;
+  }
+}

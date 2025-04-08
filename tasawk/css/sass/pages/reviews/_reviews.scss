@@ -1,0 +1,125 @@
+.reviews-main {
+  .page-top-header .top-header-list{
+    column-gap: 40px;
+  }
+  .main-parent {
+    background-color: #4c34bb;
+    height: auto;
+    padding-bottom: 200px;
+  }
+  .main-banner-content {
+    padding-top: 100px;
+  }
+  .upper-cont .title {
+    width: 790px;
+    margin-inline: auto;
+    line-height: 72px;
+    margin-bottom: 0;
+  }
+  .upper-cont {
+    margin-bottom: 80px;
+  }
+}
+.reveiws-holder {
+  width: 966px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 95px;
+
+  .client-review-div , .client-review-div::before , .client-review-div::after , .client-review-div .img-holder::before{
+    background-color: #fff;
+  }
+  .client-review-div .img-holder::after{
+    background-color: #4C34BB;
+  }
+  .review-client-cont .client-name{
+    color: #4938A1;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 5px;
+  }
+  .review-client-cont .client-role{
+    color: #E14E1D;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .review-client-cont{
+    align-items: flex-start;
+  }
+
+
+}
+.reviewer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 40px;
+  row-gap: 10px;
+  .reviewer-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #4938a1;
+  }
+  .reviewer-job {
+    font-size: 14px;
+    color: #e14e1d;
+  }
+}
+
+@include max-1200{
+  .reviews-main .fixed-topheader .top-header-list{
+    column-gap: 12px;
+  }
+}
+
+@include max-992 {
+  .reveiws-holder,
+  .reviews-main .upper-cont .title {
+    width: 100%;
+  }
+  .reveiws-holder {
+    row-gap: 70px;
+  }
+  
+  
+ 
+  .reviewer{
+    margin-top: 25px;
+    row-gap: 5px;
+  }
+  .reviewer .reviewer-name{
+    font-size: 15px;
+  }
+  .reviews-main .main-banner-content{
+    padding-top: 20px;
+  }
+  .reviews-main .upper-cont .title{
+    line-height: 1.6;
+  }
+  .reviews-main .upper-cont{
+    margin-bottom: 60px;
+  }
+  .reviews-main .main-parent{
+    padding-bottom: 80px;
+  }
+
+}
+
+@include max-768{
+    .reveiws-holder .review-client-cont .client-name{
+    font-size: 15px;
+  }
+  .reveiws-holder{
+    .client-review-div .img-holder{
+      margin: 0;
+    }
+  }
+  .reveiws-holder .review-client-cont{
+    column-gap: 15px;
+  }
+}

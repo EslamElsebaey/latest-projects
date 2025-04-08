@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>066E8EB4-8E37-44E0-908A-96982249324B</title>
+    <g id="Core-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Graphic-Design" transform="translate(-183.5, -9243)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="9371"></rect>
+            <g id="UI/Molecules/Footer" transform="translate(50.5, 8187)">
+                <g id="Footer" transform="translate(0, 88)">
+                    <g id="Group" transform="translate(69, 968)">
+                        <g id="Icons/Social/Youtube" transform="translate(64, 0)">
+                            <polygon id="Path" points="0 0 32 0 32 32 0 32"></polygon>
+                            <path d="M28.724,8.664 C29.3333333,11.04 29.3333333,16 29.3333333,16 C29.3333333,16 29.3333333,20.96 28.724,23.336 C28.3853333,24.6493333 27.3946667,25.6826667 26.14,26.032 C23.8613333,26.6666667 16,26.6666667 16,26.6666667 C16,26.6666667 8.14266667,26.6666667 5.86,26.032 C4.6,25.6773333 3.61066667,24.6453333 3.276,23.336 C2.66666667,20.96 2.66666667,16 2.66666667,16 C2.66666667,16 2.66666667,11.04 3.276,8.664 C3.61466667,7.35066667 4.60533333,6.31733333 5.86,5.968 C8.14266667,5.33333333 16,5.33333333 16,5.33333333 C16,5.33333333 23.8613333,5.33333333 26.14,5.968 C27.4,6.32266667 28.3893333,7.35466667 28.724,8.664 Z M13.3333333,20.6666667 L21.3333333,16 L13.3333333,11.3333333 L13.3333333,20.6666667 Z" id="Youtube" fill="#4938A1" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

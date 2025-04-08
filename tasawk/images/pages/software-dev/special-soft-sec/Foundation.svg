@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Brand/Illustrations/Cubes/Foundation</title>
+    <g id="Brand/Illustrations/Cubes/Foundation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="160" height="160"></rect>
+        <g id="Icon" transform="translate(8.3023, 10.2574)">
+            <path d="M17.7877901,39.1985956 L53.0615855,59.5604059 L53.0615855,100.290742 L17.7877901,79.9244189 L17.7877901,39.1985956 Z" id="Fill-11" stroke-opacity="0.4" stroke="#FFFFFF"></path>
+            <path d="M89.3376536,39.1985956 L89.3353969,79.9267143 L54.0615855,100.29079 L54.0615855,59.5604151 L89.3376536,39.1985956 Z" id="Fill-12" stroke-opacity="0.6" stroke="#FFFFFF"></path>
+            <path d="M53.566413,17.9662926 L88.8356143,38.3325695 L53.5618314,58.6943725 L18.2881168,38.3303522 L53.566413,17.9662926 Z" id="Fill-13" stroke-opacity="0.2" stroke="#FFFFFF"></path>
+            <polygon id="Path" fill-opacity="0.1" fill="#FFFFFF" fill-rule="nonzero" points="55.0365855 59.5726452 71.382572 69.0101617 70.8825953 69.8762006 54.5605855 60.4526452 54.561 59.8480838"></polygon>
+            <polygon id="Path" fill-opacity="0.1" fill="#FFFFFF" fill-rule="nonzero" points="89.8373 38.3326452 106.183286 47.7701617 105.68331 48.6362006 89.8387414 39.4882972"></polygon>
+            <polygon id="Path" fill-opacity="0.1" fill="#FFFFFF" fill-rule="nonzero" points="18.2877901 20.8599724 18.287 37.7529724 17.2877901 38.3326452 17.2877901 39.2037796 0 29.2155894 0.499976644 28.3495506 17.287 38.1279724 17.2877901 20.8599724"></polygon>
+            <polygon id="Path" fill-opacity="0.1" fill="#FFFFFF" fill-rule="nonzero" points="54.4181154 1.77635684e-15 54.4173254 17.8813919 53.5664588 17.3889433 52.6607557 17.9062352 36.1303254 8.35561708 36.630302 7.4895782 53.4173254 17.268 53.4181154 1.77635684e-15"></polygon>
+            <path d="M9.09494702e-13,69.0478349 L17.287,79.0018349 L17.287,80.1558349 L9.09494702e-13,70.1756479 L9.09494702e-13,69.0478349 Z" id="Combined-Shape" fill-opacity="0.1" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M89.8337645,80.7932177 L125.107464,101.157229 L89.8337645,121.518984 L54.562322,101.157229 L89.8337645,80.7932177 Z" id="Fill-14" stroke-opacity="0.7" stroke="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Pricing-Table/Plus</title>
+    <defs>
+        <polygon id="path-1" points="11.608 34.92 11.608 22.384 1.48482846e-13 22.384 1.48482846e-13 11.68 11.608 11.68 11.608 1.98554053e-13 23.312 1.98554053e-13 23.312 11.68 34.92 11.68 34.92 22.384 23.312 22.384 23.312 34.92"></polygon>
+        <filter x="-12.9%" y="-4.3%" width="117.2%" height="117.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-3" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.140446382   0 0 0 0 0.0829095257   0 0 0 0 0.428130661  0 0 0 0.9 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="🟢-Updated-Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="What-is-eCommerce?" transform="translate(-671, -11951)" fill-rule="nonzero">
+            <g id="No-Products" transform="translate(120, 11926)">
+                <g id="Group-9" transform="translate(453, 25)">
+                    <g id="Path" transform="translate(101, 0)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <path stroke="#FFFFFF" stroke-width="2" d="M12.608,1 L22.312,1 L22.312,12.68 L33.92,12.68 L33.92,21.384 L22.312,21.384 L22.312,33.92 L12.608,33.92 L12.608,21.384 L1,21.384 L1,12.68 L12.608,12.68 L12.608,1 Z" stroke-linejoin="square" fill="#7ACEF0" fill-rule="evenodd"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

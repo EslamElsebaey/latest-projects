@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Offer</title>
+    <g id="Icons/Offer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M27.292,15.496 L16.492,4.696 C16.06,4.264 15.46,4 14.8,4 L6.4,4 C5.08,4 4,5.08 4,6.4 L4,14.8 C4,15.46 4.264,16.06 4.708,16.504 L15.508,27.304 C15.94,27.736 16.54,28 17.2,28 C17.86,28 18.46,27.736 18.892,27.292 L27.292,18.892 C27.736,18.46 28,17.86 28,17.2 C28,16.54 27.724,15.928 27.292,15.496 Z M8.2,10 C7.204,10 6.4,9.196 6.4,8.2 C6.4,7.204 7.204,6.4 8.2,6.4 C9.196,6.4 10,7.204 10,8.2 C10,9.196 9.196,10 8.2,10 Z" id="Shape" fill="#4C34BB"></path>
+    </g>
+</svg>

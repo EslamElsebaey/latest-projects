@@ -1,0 +1,24 @@
+// Basic
+
+@import "../style/sass/base/fonts";
+@import "../style/sass/mixins/mixins";
+@import "../style/sass/base/reboot";
+
+// Components
+
+@import "../style/sass/components/footer";
+
+@import "../style/sass/components/header";
+
+// Sections
+
+@import "../style/sass/sections/common";
+@import "../style/sass/sections/main-sec";
+@import "../style/sass/sections/achievements";
+@import "../style/sass/sections/exp-years";
+@import "../style/sass/sections/projects";
+@import "../style/sass/sections/projects-workflow";
+@import "../style/sass/sections/current-projects";
+@import "../style/sass/sections/vr-tech";
+@import "../style/sass/sections/clients";
+@import "../style/sass/sections/map";

@@ -1,0 +1,110 @@
+.achievements {
+  padding-top: 150px;
+  padding-bottom: 165px;
+  position: relative;
+  .general-titles {
+    margin-bottom: 70px;
+    @include max-768 {
+      margin-bottom: 40px;
+    }
+  }
+  @include max-768 {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  &::after {
+    content: "";
+    background-image: url(../images/shapes/shape1.png);
+    background-size: cover;
+    position: absolute;
+    top: -70px;
+    right: 0;
+    width: 489px;
+    height: 529px;
+    z-index: -1;
+    @include max-768 {
+      display: none;
+    }
+  }
+}
+
+.achievements-content {
+  width: 100%;
+  max-width: 1035px;
+  margin-inline: auto;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  @include max-992 {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+  }
+  @include max-768 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.num-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    inset-inline-end: 0;
+    width: 1px;
+    height: 100%;
+    background-color: var(--black-color);
+    opacity: 0.1;
+    z-index: 2;
+  }
+  &:last-of-type {
+    &::after {
+      display: none;
+    }
+  }
+  @include max-992 {
+    &:nth-of-type(3) {
+      &::after {
+        display: none;
+      }
+    }
+  }
+  @include max-768 {
+    &::after {
+      display: none;
+    }
+    &:nth-of-type(3),
+    &:first-of-type {
+      &::after {
+        display: block;
+      }
+    }
+  }
+  .num {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    -webkit-text-stroke: 1px var(--black-color);
+    -webkit-text-fill-color: var(--white-color);
+  }
+  .text {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--black-color);
+    @include max-768 {
+      @include en {
+        max-width: 107px;
+        line-height: 1.4;
+      }
+    }
+  }
+}

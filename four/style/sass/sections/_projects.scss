@@ -1,0 +1,226 @@
+.projects {
+  padding-block: 144px;
+  position: relative;
+  // overflow: hidden;
+  @include max-768 {
+    padding-block: 60px;
+  }
+  &::after {
+    content: "";
+    background-image: url(../images/shapes/shape1.png);
+    background-size: cover;
+    position: absolute;
+    top: 690px;
+    inset-inline-start: 0;
+    z-index: -1;
+    width: 375px;
+    height: 406px;
+    @include max-768 {
+      display: none;
+    }
+  }
+  &::before {
+    content: "";
+    background-image: url(../images/shapes/shape2.png);
+    background-size: cover;
+    position: absolute;
+    bottom: 524px;
+    inset-inline-end: 0;
+    z-index: -1;
+    width: 179px;
+    height: 577px;
+    @include max-768 {
+      display: none;
+    }
+  }
+}
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  @include max-1200 {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+  @include max-768 {
+    row-gap: 40px;
+  }
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &:nth-of-type(4n-2),
+  &:nth-of-type(4n-1) {
+    .project-img {
+      min-height: 649px;
+      max-width: 570px;
+      @include max-992 {
+        min-height: 500px;
+        min-width: unset;
+      }
+    }
+    .project-img-holder {
+      .project-details {
+        padding-block: 70px;
+        padding-inline: 55px;
+        @include max-768 {
+          padding-block: 40px;
+          padding-inline: 25px;
+        }
+      }
+    }
+  }
+  &:nth-of-type(even) {
+    align-items: flex-end;
+  }
+  &:nth-of-type(odd) {
+    align-items: flex-start;
+  }
+  .project-img {
+    width: 100%;
+    max-width: 690px;
+    object-fit: cover;
+    min-height: 873px;
+    height: 100%;
+    @include max-992 {
+      min-height: 500px;
+      min-width: unset;
+    }
+  }
+  .project-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--black-color);
+    transition: all linear 0.2s;
+    &:hover {
+      color: var(--main-color);
+    }
+    @include max-768 {
+      font-size: 20px;
+    }
+  }
+}
+.project-item-parent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+  @include max-768 {
+    row-gap: 20px;
+  }
+}
+
+.project-img-holder {
+  position: relative;
+  &:hover {
+    .project-details {
+      opacity: 1;
+      visibility: visible;
+      // transform: scale(1);
+    }
+    .project-details-wrapper .details-item {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .project-details {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    @extend %flex-center;
+    padding-block: 182px;
+    padding-inline: 121px;
+    opacity: 0;
+    visibility: hidden;
+    // transform: scale(0.95);
+    transition: all ease 0.4s;
+    @include max-1400 {
+      padding-inline: 50px;
+    }
+    @include max-768 {
+      padding-inline: 25px;
+      padding-block: 40px;
+    }
+  }
+  .project-details-wrapper {
+    max-width: 448px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 90px;
+    @include max-768 {
+      gap: 30px;
+    }
+  }
+}
+
+.project-details-wrapper {
+  .details-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(50% - 45px);
+    @include max-768 {
+      width: calc(50% - 15px);
+    }
+    .img {
+      width: 45px;
+      @include max-768 {
+        width: 38px;
+      }
+    }
+    .title {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1.4;
+      color: #fff;
+      margin: 17px 0;
+      text-align: center;
+      @include en {
+        line-height: 1.2;
+      }
+      @include max-768 {
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 12px 0;
+      }
+    }
+    .space {
+      color: #fff;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 1.2;
+      @include max-768 {
+        font-size: 20px;
+      }
+    }
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all ease 0.4s;
+    &:nth-child(1) {
+      transition-delay: 0.1s;
+    }
+    &:nth-child(2) {
+      transition-delay: 0.2s;
+    }
+    &:nth-child(3) {
+      transition-delay: 0.3s;
+    }
+    &:nth-child(4) {
+      transition-delay: 0.4s;
+    }
+    &:nth-child(5) {
+      transition-delay: 0.5s;
+    }
+  }
+}

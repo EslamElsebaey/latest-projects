@@ -1,0 +1,47 @@
+.clients {
+  padding-top: 114px;
+  padding-bottom: 170px;
+  @include max-768 {
+    padding-top: 60px;
+    padding-bottom: 135px;
+  }
+  .swiper-pagination {
+    bottom: -100px;
+    width: fit-content;
+    height: 48px;
+    gap: 11px;
+    align-items: center;
+    padding-inline: 20px;
+    background-color: var(--second-white-color);
+    left: 50%;
+    transform: translateX(-50%);
+    @include max-768 {
+      bottom: -80px;
+    }
+  }
+  .swiper-pagination-bullet {
+    background-color: #d9d9d9;
+    opacity: 1;
+    &.swiper-pagination-bullet-active {
+      background-color: var(--darker-main-color);
+    }
+  }
+
+  .swiper-slide-active {
+    .client-item {
+      border-right: 1px solid #e1e1e1;
+    }
+  }
+}
+.client-item {
+  border: 1px solid #e1e1e1;
+  width: 100%;
+  aspect-ratio: 201 / 169;
+  @extend %flex-center;
+  border-right: none;
+  .client-img {
+    max-width: 100%;
+    object-fit: contain;
+    width: auto;
+  }
+}

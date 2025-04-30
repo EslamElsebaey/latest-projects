@@ -1,0 +1,143 @@
+.exp-years {
+  background-image: url(../images/bg/exp-years-bg.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 155px;
+  padding-bottom: 115px;
+  position: relative;
+  @include max-768 {
+    padding-top: 90px;
+    padding-bottom: 70px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/exp-years/shape1.png);
+    width: 1001px;
+    height: 909px;
+    top: -237px;
+    inset-inline-start: -400px;
+    z-index: 1;
+    background-repeat: no-repeat;
+    @include max-1600 {
+      inset-inline-start: -500px;
+    }
+    @include max-768 {
+      display: none;
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/exp-years/shape2.png);
+    width: 670px;
+    height: 909px;
+    top: 73px;
+    inset-inline-end: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+    @include max-768 {
+      display: none;
+    }
+  }
+}
+
+.exp-years-content {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include en {
+    direction: rtl;
+  }
+  @include max-768 {
+    max-width: 100%;
+  }
+  .num-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include max-768 {
+      transform: translateX(-5px);
+    }
+    img {
+      width: 188px;
+      @include max-768 {
+        width: 140px;
+      }
+    }
+    .text {
+      font-weight: 700;
+      font-size: 51px;
+      line-height: 1.8;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 0;
+      margin-top: -20px;
+      max-width: 190px;
+      margin-inline: auto;
+      @include en {
+        font-size: 40px;
+        line-height: 1.5;
+        margin-top: 0;
+        max-width: 235px;
+        @include max-768 {
+          font-size: 30px;
+          max-width: 175px;
+          line-height: 1.3;
+        }
+      }
+      @include max-768 {
+        font-size: 40px;
+        line-height: 1.5;
+        margin-top: 0;
+        max-width: 140px;
+      }
+    }
+  }
+  .text-content {
+    display: flex;
+    direction: ltr;
+    align-items: center;
+    margin-top: -20px;
+    @include max-768 {
+      margin-top: -10px;
+      transform: translateX(5px);
+    }
+    .en-text,
+    .ar-text {
+      font-weight: 700;
+      text-align: center;
+      color: #fff;
+      margin-bottom: 0;
+      -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: vertical-lr;
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+    }
+    .ar-text {
+      font-size: 124px;
+      line-height: 0.8;
+      margin-top: 30px;
+      font-family: "Simah pro Arabic";
+      @include max-768 {
+        font-size: 70px;
+        margin-top: 20px;
+      }
+    }
+    .en-text {
+      font-family: "Bahij TheSansArabic";
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 1.3;
+      letter-spacing: 25px;
+      text-align: center;
+      text-transform: uppercase;
+      @include max-768 {
+        font-size: 60px;
+        letter-spacing: 12px;
+      }
+    }
+  }
+}

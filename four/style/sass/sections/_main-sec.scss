@@ -1,0 +1,186 @@
+.main {
+  // height: 1011px;
+  background: url(../images/bg/main-bg.png) no-repeat, #000;
+  display: flex;
+  align-items: flex-start;
+  padding-inline-start: 168px;
+  padding-block: 168px;
+  padding-inline-end: 30px;
+  position: relative;
+  overflow: hidden;
+  &::after {
+    content: "";
+    width: 168px;
+    height: 168px;
+    bottom: 0;
+    inset-inline-start: 0;
+    border-top: 6px solid #fff;
+    border-left: 6px solid #fff;
+    position: absolute;
+    background-color: transparent;
+    @include en {
+      border-left: none;
+      border-right: 6px solid #fff;
+    }
+    @include max-1700 {
+      width: 150px;
+      height: 150px;
+    }
+    @include max-992 {
+      display: none;
+    }
+  }
+  @include max-1700 {
+    padding-inline-start: 150px;
+    padding-block: 150px;
+    padding-inline-end: 15px;
+  }
+  @include max-1200 {
+    height: auto;
+  }
+  @include max-768 {
+    padding-inline-start: 75px;
+    padding-top: 75px;
+    padding-bottom: 70px;
+  }
+}
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 84px;
+  @include max-1200 {
+    gap: 50px;
+  }
+  @include max-992 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  @include max-768 {
+    gap: 22px;
+  }
+  .info-title {
+    color: #e7e0db;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    text-align: start;
+    margin-bottom: 30px;
+    @include en {
+      line-height: 1.3;
+    }
+    @include max-1300 {
+      font-size: 40px;
+      line-height: 60px;
+    }
+    @include max-768 {
+      font-size: 30px;
+      line-height: 1.4;
+      margin-bottom: 15px;
+    }
+  }
+  .info-text {
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    @include max-768 {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+  .generalBtn-parent {
+    margin-top: 30px;
+    justify-content: flex-start;
+    .generalBtn {
+      background-color: var(--light-color);
+      min-width: 154px;
+      padding-inline: 40px;
+      height: 60px;
+      color: var(--black-color);
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  .info-content {
+    max-width: 671px;
+    width: 100%;
+  }
+}
+.img-clipped {
+  position: relative;
+  width: 100%;
+  max-width: 623px;
+  height: 675px;
+  clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0 100%, 0 53%);
+  @include en {
+    clip-path: polygon(50% 0, 0% 0%, 0% 100%, 100% 100%, 100% 53%);
+  }
+  background-color: #fff;
+  @extend %flex-center;
+  @include max-1400 {
+    height: 580px;
+  }
+  @include max-1200 {
+    height: 500px;
+  }
+  @include max-768 {
+    height: 350px;
+  }
+  .img {
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0 100%, 0 53%);
+    @include en {
+      clip-path: polygon(50% 0, 0% 0%, 0% 100%, 100% 100%, 100% 53%);
+    }
+  }
+  .yearsOfExp {
+    padding-top: 60px;
+    padding-inline-start: 41px;
+    padding-inline-end: 25px;
+    min-width: 205px;
+    height: 210px;
+    clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0 100%, 0 53%);
+    @include en {
+      clip-path: polygon(50% 0, 0% 0%, 0% 100%, 100% 100%, 100% 53%);
+    }
+    background-color: #151515;
+    display: flex;
+    // align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    inset-inline-start: 20px;
+    z-index: 1;
+    @include max-768 {
+      padding: 20px;
+      padding-inline-end: 10px;
+      height: 160px;
+      min-width: 155px;
+      justify-content: center;
+    }
+    .num {
+      font-weight: 600;
+      font-size: 96px;
+      line-height: 0.7;
+      color: #ffffff;
+      margin-bottom: 20px;
+      @include max-768 {
+        font-size: 60px;
+      }
+    }
+    .text {
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 1.5;
+      @include max-768 {
+        font-size: 21px;
+      }
+    }
+  }
+}

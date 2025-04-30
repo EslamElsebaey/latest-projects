@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Simah pro Arabic';
+    src: url('SimahproArabic-SemiBold.woff2') format('woff2'),
+        url('SimahproArabic-SemiBold.woff') format('woff'),
+        url('SimahproArabic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Simah pro Arabic';
+    src: url('SimahproArabic-Bold.woff2') format('woff2'),
+        url('SimahproArabic-Bold.woff') format('woff'),
+        url('SimahproArabic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Simah pro Arabic';
+    src: url('SimahproArabic-Regular.woff2') format('woff2'),
+        url('SimahproArabic-Regular.woff') format('woff'),
+        url('SimahproArabic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Simah pro Arabic';
+    src: url('SimahproArabic-Medium.woff2') format('woff2'),
+        url('SimahproArabic-Medium.woff') format('woff'),
+        url('SimahproArabic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
